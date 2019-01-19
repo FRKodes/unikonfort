@@ -25,21 +25,31 @@
 
 		<header id="masthead" class="site-header">
 
-			<div class="site-branding-container">
-				<?php get_template_part( 'template-parts/header/site', 'branding' ); ?>
-			</div><!-- .layout-wrap -->
+			<?php if ( has_nav_menu( 'top-menu' ) ) : ?>
+				<nav id="site-navigation" class="main-navigation navbar navbar-expand-md navbar-dark fixed-top bg-dark" aria-label="Top Menu">
 
-			<?php if ( is_singular() && twentynineteen_can_show_post_thumbnail() ) : ?>
-				<div class="site-featured-image">
-					
-					<?php the_post(); ?>
+					<a class="navbar-brand" href="/"><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/logo-unikonfort-blanco.svg'; ?>" alt="<?php the_title() ?>"></a>
 
-					<div class="entry-header">
-						<?php get_template_part( 'template-parts/header/entry', 'header' ); ?>
-					</div><!-- .entry-header -->
-					<?php // rewind_posts(); ?>
-				</div>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<?php
+					wp_nav_menu(
+						array(
+							'theme_location' => 'top-menu',
+							'menu_class'     => 'main-menu navbar-nav mr-auto',
+							'items_wrap'     => '<ul id="%1$s" class="%2$s" tabindex="0">%3$s</ul>',
+						)
+					);
+					?>
+				</nav><!-- #site-navigation -->
 			<?php endif; ?>
 		</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="main-banner-container">
+				</div>
+			</div>
+		</div>

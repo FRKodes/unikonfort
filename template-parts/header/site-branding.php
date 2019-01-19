@@ -9,40 +9,26 @@
 ?>
 <div class="site-branding">
 
-	<?php if ( has_custom_logo() ) : ?>
-		<div class="site-logo"><?php the_custom_logo(); ?></div>
-	<?php endif; ?>
-	<?php $blog_info = get_bloginfo( 'name' ); ?>
-	<?php if ( ! empty( $blog_info ) ) : ?>
-		<?php if ( is_front_page() && is_home() ) : ?>
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-		<?php else : ?>
-			<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-		<?php endif; ?>
-	<?php endif; ?>
+	<div class="site-logo"><?php echo get_stylesheet_directory_uri() . '/assets/images/logo-unikonfort-blanco.svg'; ?></div>
+	
 
-	<?php
-	$description = get_bloginfo( 'description', 'display' );
-	if ( $description || is_customize_preview() ) :
-		?>
-			<p class="site-description">
-				<?php echo $description; ?>
-			</p>
-	<?php endif; ?>
-	<?php if ( has_nav_menu( 'menu-1' ) ) : ?>
+	<?php $blog_info = get_bloginfo( 'name' ); ?>
+	
+	<?php if ( has_nav_menu( 'top-menu' ) ) : ?>
 		<nav id="site-navigation" class="main-navigation" aria-label="Top Menu">
 			<?php
 			wp_nav_menu(
 				array(
-					'theme_location' => 'menu-1',
-					'menu_class'     => 'main-menu',
+					'theme_location' => 'top-menu',
+					'menu_class'     => 'main-menu navbar navbar-expand-md navbar-dark fixed-top bg-dark',
 					'items_wrap'     => '<ul id="%1$s" class="%2$s" tabindex="0">%3$s</ul>',
 				)
 			);
 			?>
 		</nav><!-- #site-navigation -->
 	<?php endif; ?>
-	<?php if ( has_nav_menu( 'social' ) ) : ?>
+	
+	<?php if ( has_nav_menu( 'social-menu' ) ) : ?>
 		<nav class="social-navigation" aria-label="Social Links Menu">
 			<?php
 			wp_nav_menu(
