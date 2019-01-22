@@ -17,8 +17,8 @@ get_header();
 
 		<div class="conainter">
 			<div class="row">
-				<div class="col-xs-12">
-					<h1 class="main-title text-center mb-40">DISEÑO Y FABRICACIÓN DE COLCHONES</h1>
+				<div class="col-xs-12 col-md-12">
+					<h1 class="main-title azul-01 text-center mb-40">DISEÑO Y FABRICACIÓN DE COLCHONES</h1>
 				</div>
 			</div>
 
@@ -26,7 +26,7 @@ get_header();
 				<div class="col-xs-12 col-md-6 linea-block">
 					<div class="imagen-linea"><figure><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/linea-hotelera.jpg'; ?>" alt=""></figure></div>
 					<div class="info">
-						<h2 class="title azul-01">LÍNEA <br><b>HOTELERA</b></h2>
+						<h2 class="title azul-01"><span class="thin">LÍNEA</span> <br><b>HOTELERA</b></h2>
 						<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur voluptatum ducimus libero ipsam provident iusto. Modi ipsa, nihil nisi mollitia sequi, aperiam illo, iure inventore fugiat nesciunt accusamus esse quia.</p>
 						<p class="text-right"><a href="#" class="view-catalog italic azul-01">VER CATÁLOGO</a></p>
 					</div>
@@ -34,9 +34,131 @@ get_header();
 				<div class="col-xs-12 col-md-6 linea-block">
 					<div class="imagen-linea"><figure><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/linea-residencial.jpg'; ?>" alt=""></figure></div>
 					<div class="info">
-						<h2 class="title verde-01">LÍNEA <br><b>RESIDENCIAL</b></h2>
+						<h2 class="title verde-01"><span class="thin">LÍNEA</span> <br><b>RESIDENCIAL</b></h2>
 						<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos explicabo, iusto inventore esse corrupti a veritatis, ducimus sed nihil dolores sit saepe. Corporis temporibus expedita laudantium molestias amet, eum nostrum.</p>
 						<p class="text-right"><a href="#" class="view-catalog italic azul-01">VER CATÁLOGO</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+		<div class="inner-banner-home"></div>
+
+
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-12">
+					<h2 class="title azul-01 text-center mb-40">SOLUCIONES A TU MEDIDA</h2>
+				</div>
+
+				<div class="col-xs-12 col-lg-6 soluciones-a-medida">
+					<div class="image">
+						<figure><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/cochones-a-tu-medida-fabrica-de-colchones-en-mexico.jpg'; ?>" alt="cochones a tu medida, fábrica de colchones en méxico"></figure>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-lg-6">
+					<h2 class="title amarillo-01">
+						<span class="thin">DISEÑO</span> <br>
+						<b>Y FABRICACIÓN</b>
+					</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat iste ullam beatae molestias natus ipsum quo commodi magnam nulla, odit nobis quaerat praesentium optio officiis quasi consequuntur, sunt sapiente nostrum.
+					</p>
+
+					<h4>Otros productos y especialidades</h4>
+					<ul>
+						<li>Consectetur adipisicing elit.</li>
+						<li>Explicabo perspiciatis est, vitae fugiat dolores consequatur quos illum.</li>
+						<li>Saepe odio iusto et, itaque fugiat provident laboriosam.</li>
+						<li>Lorem ipsum dolor sit amet.</li>
+					</ul>
+					<p class="text-right"><a href="#" class="view-catalog italic azul-01">VER CATÁLOGO</a></p>
+				</div>
+			</div>
+
+
+			<div class="row">
+				
+				<div class="col-xs-12 col-md-12">
+					<h2 class="title azul-01 text-center mt-40 mb-20">GARANTÍA HOTEL PROTECT</h2>
+				</div>
+
+				<div class="col-xs-12 col-md-12 blue-block white mb-40">
+					<div class="row">
+						<div class="col-xs-4 col-md-4 element text-center">
+							<span class="first-line">10 AÑOS</span> <br>
+							<i>CONTRA DEFECTOS DE FÁBRICA</i>
+						</div>
+						<div class="col-xs-4 col-md-4 element text-center">
+							<span class="first-line">PROTECCIÓN</span> <br>
+							<i>A HOTELES A NIVEL NACIONAL</i>
+						</div>
+						<div class="col-xs-4 col-md-4 element text-center">
+							<span class="first-line">5 AÑOS</span> <br>
+							<i>CON REEMPLAZO SIN COSTO</i>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row garantia">
+				
+				<div class="col-xs-12 col-md-6">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid dolorem quia, itaque facilis quisquam, impedit iste distinctio, accusamus deserunt quis quaerat. Vero, nobis reiciendis cupiditate. Dolor iste sit eos deserunt.
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quisquam laborum eum amet id voluptatum iure. Tenetur ullam iste, nam, iusto vel repellat dolores, optio mollitia dolorum libero maiores ducimus.
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eum libero nam repellat magnam suscipit, accusamus at ab dolorum, totam aperiam atque delectus architecto aliquam, officiis rem veritatis, impedit! Ad!
+					</p>
+				</div>
+				
+				<div class="col-xs-12 col-md-6">
+					<div class="image">
+						<figure><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/garantia-unikonfort.jpg'; ?>" alt="garantia unikonfort, fábrica de colchones. Hacemos colchones a medida."></figure>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row mb-40">
+				<div class="col-xs-12 col-md-12">
+					<h2 class="title azul-01 text-center mt-40 mb-40">ÚLTIMAS NOTICIAS</h2>
+				</div>
+
+				<div class="col-xs-12 col-md-6 col-lg-4 blog-item">
+					<div class="inner-blog-container">
+						<div class="image"><figure><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/blog01.png'; ?>" alt=""></figure></div>
+						<div class="info">
+							<p class="title azul-01 mayus">Elit nemo tempore, earum aspernatur hic</p>
+							<p class="italic excerpt-blog">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo tempore, earum aspernatur hic ipsum.</p>
+							<p class="text-right"><a href="#" class="view-catalog italic azul-01">VER MÁS</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-6 col-lg-4 blog-item">
+					<div class="inner-blog-container">
+						
+						<div class="image"><figure><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/blog02.png'; ?>" alt=""></figure></div>
+						<div class="info">
+							<p class="title azul-01 mayus">Elit nemo tempore, earum aspernatur hic</p>
+							<p class="italic excerpt-blog">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo tempore, earum aspernatur hic ipsum.</p>
+							<p class="text-right"><a href="#" class="view-catalog italic azul-01">VER MÁS</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-6 col-lg-4 blog-item">
+					<div class="inner-blog-container">
+						<div class="image"><figure><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/blog03.png'; ?>" alt=""></figure></div>
+						<div class="info">
+							<p class="title azul-01 mayus">Elit nemo tempore, earum aspernatur hic</p>
+							<p class="italic excerpt-blog">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo tempore, earum aspernatur hic ipsum.</p>
+							<p class="text-right"><a href="#" class="view-catalog italic azul-01">VER MÁS</a></p>
+						</div>
 					</div>
 				</div>
 			</div>

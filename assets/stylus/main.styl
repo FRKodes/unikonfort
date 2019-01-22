@@ -1,23 +1,82 @@
 azul-01 = #009ec3
+azul-02 = #06576d
+azul-03 = #00345c
 verde-01 = #006666
+amarillo-01 = #ffb600
 
+.azul-01
+	color azul-01
+.verde-01
+	color verde-01
+.white
+	color white
+.amarillo-01
+	color amarillo-01
 .italic
 	font-style italic
+.mayus
+	text-transform uppercase
+.thin
+	font-weight 300
+.mt-20
+	margin-top 20px
+.mb-20
+	margin-bottom 20px
 .mb-40
 	margin-bottom 40px
+.mt-40
+	margin-top 40px
 body
-	background white
+	background #edeeee
+	font-family 'Montserrat', sans-serif
+.site
+	overflow-x hidden
+.main-navigation.navbar
+	background azul-03
+.inner-top-bar-container
+	width 100%
+	display flex
+	justify-content space-between
 .navbar-brand
 	img
 		width 100px
-
+.navbar-dark
+	.navbar-nav
+		.nav-link
+			color white
 .main-banner-container
-	background purple
-	height 300px
+	height 250px
 	width 100%
 	display block
-	margin-bottom 30px
-
+	margin-bottom 60px
+	.item
+		background transparent url(./assets/images/banner_home.jpg) no-repeat center center
+		background-size 950px
+		height 250px
+		width 100%
+		display block
+.slick-dots
+	padding 0
+	margin 0
+	text-align center
+	li
+		display inline-block
+		width 12px
+		height 12px
+		border-radius 50%
+		overflow hidden
+		background azul-01
+		margin 0 6px
+		&.slick-active
+			background amarillo-01
+		button
+			background none
+			border none
+			color transparent
+h1.main-title
+	font-size 1.6em
+	width 100%
+	display block
 .linea-block
 	.imagen-linea
 		img
@@ -29,6 +88,142 @@ body
 				color azul-01
 			&.verde-01
 				color verde-01
-		a
-			text-decoration underline
-			font-size .9em
+a.view-catalog
+	text-decoration underline
+	font-size .9em
+
+.inner-banner-home
+	background purple
+	height 200px
+	display block
+	width 160%
+	margin-left -30%
+	margin-top 30px
+	margin-bottom 30px
+	background transparent url(./assets/images/banner_home_inner.jpg) no-repeat center center
+	background-size cover
+.soluciones-a-medida
+	.image
+		img
+			width 100%
+			height auto
+			display block
+.blue-block
+	background azul-02
+	padding-top 20px
+	padding-bottom 10px
+	line-height 1em
+	.first-line
+		font-size 1.8em
+	i
+		font-size .8em
+.garantia
+	.image
+		img
+			width 100%
+			height auto
+			display block
+.blog-item
+	margin-bottom 40px
+.inner-blog-container
+	-webkit-box-shadow 0px 0px 20px -2px rgba(0,0,0,0.75)
+	-moz-box-shadow 0px 0px 20px -2px rgba(0,0,0,0.75)
+	box-shadow 0px 0px 20px -2px rgba(0,0,0,0.75)
+	overflow hidden
+	.image
+		img
+			width 100%
+			height auto
+			display block
+	.info
+		padding 10px 20px
+		.title
+			height 48px
+			overflow hidden
+		.excerpt-blog
+			font-size .8em
+.skip-link
+	display none
+footer
+	background azul-03
+	color white
+	padding-top 30px
+	padding-bottom 20px
+	font-size .85em
+	h3.title
+		font-size 1.2em
+	p.footer-line
+		display flex
+		align-items center
+		span
+			margin-right 5px
+	.icon-phone
+	.icon-mail
+	.icon-pin
+	.icon-watch
+		color azul-01
+		font-size 1.6em
+	.logo-footer
+		width 200px
+		height auto
+		display inline-block
+	.footer-menu
+		padding 0
+		margin 0
+		li
+			display block
+			margin 3px 0
+			a
+				text-transform uppercase
+				color white
+@media screen and (min-width: 768px)
+	.inner-banner-home
+		height 300px
+		margin-top 40px
+		margin-bottom 40px
+		background transparent url(./assets/images/banner_home_inner.jpg) no-repeat center center
+		background-size cover
+	.main-banner-container
+		height 450px
+		width 100%
+		.item
+			background-size cover
+			height 450px
+@media screen and (min-width: 992px)
+	.inner-top-bar-container
+		margin 0 auto
+		width 990px
+		display flex
+		height 60px
+		overflow hidden
+	.navbar-brand
+		img
+			width 200px
+	.main-navigation.navbar
+		background -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%)
+		background -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%)
+		background linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%)
+	.main-menu.navbar-nav
+		float right
+		margin 0 !important
+	.menu-menu-top-container
+		align-items center
+		justify-content flex-end
+	.main-banner-container
+		height 450px
+		margin-top -60px
+	h1.main-title
+		font-size 2em
+	.garantia
+		.image
+			img
+				width 80%
+				margin 20px auto
+@media screen and (min-width: 1200px)
+	.inner-top-bar-container
+		width 1160px
+	.garantia
+		.image
+			img
+				width 65%
+				margin 0 auto

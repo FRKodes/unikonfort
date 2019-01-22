@@ -7,7 +7,7 @@ function register_unikonfort_menus() {
   register_nav_menus(
     array(
       'top-menu' => __( 'Top Menu' ),
-      'social-menu' => __( 'Social Menu' )
+      'footer-menu' => __( 'Footer Menu' )
     )
   );
 }
