@@ -13,23 +13,25 @@ get_header();
 ?>
 
 	<section id="primary" class="content-area">
-		<main id="main" class="site-main">
+		<main id="main" class="site-main container">
+			<div class="row">
+				<?php
+				/* Start the Loop */
+				while ( have_posts() ) :
+					the_post();
+					
+					$pageToLoad = 'page-' . str_replace('/', '', $_SERVER["REQUEST_URI"]);
 
-			<?php
+					get_template_part( 'template-parts/content/content', $pageToLoad );
 
-			/* Start the Loop */
-			while ( have_posts() ) :
-				the_post();
+					// If comments are open or we have at least one comment, load up the comment template.
+					if ( comments_open() || get_comments_number() ) {
+						comments_template();
+					}
 
-				get_template_part( 'template-parts/content/content', 'page' );
-
-				// If comments are open or we have at least one comment, load up the comment template.
-				if ( comments_open() || get_comments_number() ) {
-					comments_template();
-				}
-
-			endwhile; // End of the loop.
-			?>
+				endwhile; // End of the loop.
+				?>
+			</div>
 
 		</main><!-- #main -->
 	</section><!-- #primary -->

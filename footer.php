@@ -25,6 +25,10 @@
 						<p class="footer-line"><span class="icon-mail"></span> <a class="white" href="mailto:contacto@unikonfort.mx">contacto@unikonfort.mx</a></p>
 						<p class="footer-line"><span class="icon-pin"></span> Av. Camino a Santa Cruz del Valle #113-A Col. Valle de la misericordia, Tlaquepaque Jalisco, México.</p>
 						<p class="footer-line"><span class="icon-watch"></span> Lunes a Viernes 8:00 a 18:00 Hrs.</p>
+						<ul class="social-stuff">
+							<li><a target="_blank" href="https://www.facebook.com/colchonesunikonfort/" class="icon-fb"></a></li>
+							<li><a target="_blank" href="#" class="icon-ig"></a></li>
+						</ul>
 					</div>
 					<div class="col-xs-12 col-md-4 text-center">
 
@@ -61,7 +65,7 @@
 
 			<div class="row">
 				<div class="col-xs-12 col-md-12 mt-40">
-					<p class="credits text-center">Desarrollado por <a href="https://blueterrier.mx">Blue Terrier Studio</a></p>
+					<p class="credits text-center">Desarrollado por <a class="azul-01" target="_blank" href="https://blueterrier.mx">Blue Terrier Studio</a></p>
 				</div>
 			</div>
 		</div>

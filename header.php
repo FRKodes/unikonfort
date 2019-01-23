@@ -52,10 +52,14 @@
 	<div id="content" class="site-content">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="main-banner-container">
-					<div class="item"></div>
-					<div class="item"></div>
-					<div class="item"></div>
-				</div>
+				<?php if (is_front_page()) { ?>
+					<div class="main-banner-container">
+						<div class="item"></div>
+						<div class="item"></div>
+						<div class="item"></div>
+					</div>
+				<?php } else { ?>
+					<div class="inner-page-banner" style="background-image: url(<?php echo get_the_post_thumbnail_url() ?>);"></div>
+				<?php } ?>
 			</div>
 		</div>

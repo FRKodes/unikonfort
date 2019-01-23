@@ -3,6 +3,7 @@ azul-02 = #06576d
 azul-03 = #00345c
 verde-01 = #006666
 amarillo-01 = #ffb600
+gris-01 = #666666
 
 .azul-01
 	color azul-01
@@ -22,10 +23,16 @@ amarillo-01 = #ffb600
 	margin-top 20px
 .mb-20
 	margin-bottom 20px
+.mb-0
+	margin-bottom 0px
 .mb-40
 	margin-bottom 40px
 .mt-40
 	margin-top 40px
+.cien
+	width 100%
+	height auto
+	display block
 body
 	background #edeeee
 	font-family 'Montserrat', sans-serif
@@ -44,6 +51,10 @@ body
 	.navbar-nav
 		.nav-link
 			color white
+			transition color .5s ease
+			&:hover
+				color azul-01
+				transition color .5s ease
 .main-banner-container
 	height 250px
 	width 100%
@@ -73,6 +84,15 @@ body
 			background none
 			border none
 			color transparent
+.inner-page-banner
+	height 150px
+	display block
+	width 100%
+	background-size 768px
+	background-position center top
+	background-repeat no-repeat
+	margin-top 50px
+	margin-bottom 20px
 h1.main-title
 	font-size 1.6em
 	width 100%
@@ -142,14 +162,67 @@ a.view-catalog
 			overflow hidden
 		.excerpt-blog
 			font-size .8em
+.catalog-item
+	margin-bottom 40px
+	.inner-container
+		-webkit-box-shadow 0px 0px 20px -2px rgba(0,0,0,0.75)
+		-moz-box-shadow 0px 0px 20px -2px rgba(0,0,0,0.75)
+		box-shadow 0px 0px 20px -2px rgba(0,0,0,0.75)
+		overflow hidden
+		.image
+			img
+				height auto
+		.info
+			padding 15px
+			background transparent url(./assets/images/garantia-unikonfort.jpg) no-repeat 90% 75%
+			background-size 50px
+			color gris-01
+			.title-block
+				margin-bottom 40px
+				h2
+					font-size 1.4em
+					margin-bottom 2px
+				h3
+					font-size 1em
+			.texts
+				p
+					margin-bottom 2px
+					font-size .8em
+		.icons
+			margin 20px 0
+			span
+				color azul-01
+				font-size 1.2em
 .skip-link
 	display none
+h1.entry-title
+	text-align center
+	text-transform uppercase
+	color azul-01
+	font-weight bold
+	letter-spacing 1px
+.fabrica-item
+	display flex
+	justify-content space-between
+	align-items top
+	.imagen
+		width 30%
+	.info
+		width 60%
+		h3
+			font-size 1.3em
+			span
+				font-size .8em
+		p
+			font-size .8em
 footer
 	background azul-03
 	color white
 	padding-top 30px
 	padding-bottom 20px
 	font-size .85em
+	&.entry-footer
+		background none
 	h3.title
 		font-size 1.2em
 	p.footer-line
@@ -163,6 +236,21 @@ footer
 	.icon-watch
 		color azul-01
 		font-size 1.6em
+	.social-stuff
+		padding 0
+		margin 0 0 0 20px
+		text-align left
+		li
+			display inline-block
+			font-size 2em
+			margin 0 5px
+			a
+				color white
+				transition color .5s ease
+				&:hover
+					color azul-01
+					transition color .5s ease
+					text-decoration none
 	.logo-footer
 		width 200px
 		height auto
@@ -176,12 +264,26 @@ footer
 			a
 				text-transform uppercase
 				color white
+	.credits
+		a
+			transition color .5s ease
+			&:hover
+				color white
+				transition color .5s ease
+@media screen and (min-width: 375px)
+	.catalog-item
+		.inner-container
+			.info
+				background-size 100px
 @media screen and (min-width: 768px)
 	.inner-banner-home
 		height 300px
 		margin-top 40px
 		margin-bottom 40px
 		background transparent url(./assets/images/banner_home_inner.jpg) no-repeat center center
+		background-size cover
+	.inner-page-banner
+		height 250px
 		background-size cover
 	.main-banner-container
 		height 450px
@@ -196,6 +298,8 @@ footer
 		display flex
 		height 60px
 		overflow hidden
+	.inner-page-banner
+		margin-top 0
 	.navbar-brand
 		img
 			width 200px
@@ -219,7 +323,28 @@ footer
 			img
 				width 80%
 				margin 20px auto
+	.catalog-item
+		margin-bottom 60px
+		.inner-container
+			.info
+				padding 20px
+				background transparent url(./assets/images/garantia-unikonfort.jpg) no-repeat 90% 55%
+				background-size 175px
+				.title-block
+					h2
+						font-size 1.6em
+					h3
+						font-size 1.1em
+				.texts
+					p
+						font-size .9em
+			.icons
+				margin-top 30px
+				span
+					font-size 1.3em
 @media screen and (min-width: 1200px)
+	.inner-page-banner
+		height 350px
 	.inner-top-bar-container
 		width 1160px
 	.garantia

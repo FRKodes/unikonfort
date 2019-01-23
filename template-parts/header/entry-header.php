@@ -7,7 +7,7 @@
  * @since 1.0.0
  */
 
-the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+the_title( '<h1 class="entry-title mb-40 mt-20">', '</h1>' ); ?>
 
 <?php if ( ! is_page() ) : ?>
 <div class="entry-meta">

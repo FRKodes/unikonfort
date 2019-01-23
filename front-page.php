@@ -132,7 +132,7 @@ get_header();
 
 				<div class="col-xs-12 col-md-6 col-lg-4 blog-item">
 					<div class="inner-blog-container">
-						<div class="image"><figure><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/blog01.png'; ?>" alt=""></figure></div>
+						<div class="image"><figure><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/blog01.png'; ?>" alt="ok"></figure></div>
 						<div class="info">
 							<p class="title azul-01 mayus">Elit nemo tempore, earum aspernatur hic</p>
 							<p class="italic excerpt-blog">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo tempore, earum aspernatur hic ipsum.</p>
