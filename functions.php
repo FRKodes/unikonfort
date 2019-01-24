@@ -13,3 +13,46 @@ function register_unikonfort_menus() {
   );
 }
 add_action( 'init', 'register_unikonfort_menus' );
+
+
+function product_custom_post_type() {
+
+    $labels = array(
+        'name'                => _x( 'Productos', 'Post Type General Name' ),
+        'singular_name'       => _x( 'Producto', 'Post Type Singular Name' ),
+        'menu_name'           => __( 'Productos' ),
+        'parent_item_colon'   => __( 'Producto padre' ),
+        'all_items'           => __( 'Todos los productos' ),
+        'view_item'           => __( 'Ver producto' ),
+        'add_new_item'        => __( 'Agregar un producto' ),
+        'add_new'             => __( 'Agregar nuevo producto' ),
+        'edit_item'           => __( 'Editar producto' ),
+        'update_item'         => __( 'Actualizar producto' ),
+        'search_items'        => __( 'Buscar producto' ),
+        'not_found'           => __( 'Not Found' ),
+        'not_found_in_trash'  => __( 'Not found in Trash' ),
+    );
+     
+    $args = array(
+        'label'               => __( 'Productos' ),
+        'description'         => __( 'Productos Unikonfort' ),
+        'labels'              => $labels,
+        'supports'            => array( 'title', 'editor', 'thumbnail'),
+        'hierarchical'        => false,
+        'public'              => true,
+        'show_ui'             => true,
+        'show_in_menu'        => true,
+        'show_in_nav_menus'   => true,
+        'show_in_admin_bar'   => true,
+        'menu_position'       => 5,
+        'can_export'          => true,
+        'has_archive'         => true,
+        'exclude_from_search' => false,
+        'publicly_queryable'  => true,
+        'capability_type'     => 'page',
+        'taxonomies'          => array( 'product-category' ),
+    );
+     
+    register_post_type( 'producto', $args );
+}
+add_action( 'init', 'product_custom_post_type' );

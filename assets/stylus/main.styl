@@ -33,6 +33,11 @@ gris-01 = #666666
 	width 100%
 	height auto
 	display block
+h3.mayus.azul-01
+	white-space normal
+.white-space
+	p
+		white-space normal
 body
 	background #edeeee
 	font-family 'Montserrat', sans-serif
@@ -192,7 +197,8 @@ a.view-catalog
 			margin 20px 0
 			span
 				color azul-01
-				font-size 1.2em
+				font-size 1.5em
+				margin-right 3px
 .skip-link
 	display none
 h1.entry-title
@@ -206,7 +212,8 @@ h1.entry-title
 	justify-content space-between
 	align-items top
 	.imagen
-		width 30%
+		span
+			font-size 5.5em
 	.info
 		width 60%
 		h3
@@ -215,6 +222,45 @@ h1.entry-title
 				font-size .8em
 		p
 			font-size .8em
+.clients-container
+	.client-item
+		text-align center
+		padding 15px 0
+		img
+			-webkit-box-shadow 0px 0px 20px 0px rgba(0,0,0,0.75)
+			-moz-box-shadow 0px 0px 20px 0px rgba(0,0,0,0.75)
+			box-shadow 0px 0px 20px 0px rgba(0,0,0,0.75)
+			width 60%
+			display inline-block
+			height auto
+article
+	width 100%
+.contact-line
+	font-size .9em
+	display flex
+	align-items center
+	span
+		margin-right 6px
+		font-size 1.2em
+	a
+		color black
+		transition color .5s ease
+		&:hover
+			color azul-01
+			transition color .5s ease
+.contact-info-block
+	p:first-child
+		font-style italic
+		margin-bottom 30px
+.inner-map
+	height 200px
+	display block
+	width 160%
+	margin-left -30%
+	margin-top 60px
+	margin-bottom 60px
+	background transparent url(./assets/images/mapa.jpg) no-repeat center center
+	background-size cover
 footer
 	background azul-03
 	color white
@@ -275,6 +321,11 @@ footer
 		.inner-container
 			.info
 				background-size 100px
+@media screen and (min-width: 375px)
+	.clients-container
+		.client-item
+			img
+				width 80%
 @media screen and (min-width: 768px)
 	.inner-banner-home
 		height 300px
@@ -291,6 +342,12 @@ footer
 		.item
 			background-size cover
 			height 450px
+	.bottom-blue-line
+		border-bottom 1px solid azul-01
+		margin-bottom 60px
+		padding-bottom 50px
+	.inner-map
+		height 300px
 @media screen and (min-width: 992px)
 	.inner-top-bar-container
 		margin 0 auto
@@ -341,7 +398,18 @@ footer
 			.icons
 				margin-top 30px
 				span
-					font-size 1.3em
+					font-size 2em
+	.fabrica-item
+		.imagen
+			display flex
+			justify-content center
+			align-items center
+			width 40%
+			span
+				font-size 5.5em
+				display inline-block
+	.inner-map
+		height 420px
 @media screen and (min-width: 1200px)
 	.inner-page-banner
 		height 350px
@@ -352,3 +420,12 @@ footer
 			img
 				width 65%
 				margin 0 auto
+	.catalog-item
+		.inner-container
+			.icons
+				span
+					font-size 2.8em
+	.contact-line
+		span
+			margin-right 5px
+			font-size 1.4em

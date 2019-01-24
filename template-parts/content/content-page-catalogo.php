@@ -26,7 +26,7 @@
 					<div class="col-xs-12 col-md-6 catalog-item">
 						<div class="inner-container">
 							<div class="image">
-								<figure><img class="cien" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/'; ?>" alt="ook"></figure>
+								<figure><img class="cien" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/colchon_bel-airplus_doble_colchoneta.jpg'; ?>" alt="ook"></figure>
 							</div>
 							<div class="info">
 								<div class="title-block">
@@ -40,9 +40,9 @@
 									<p class="line"><b class="mayus">Tela: </b>Dos lados de uso</p>
 								</div>
 								<div class="icons">
-									<span class="icon-fb"></span>
-									<span class="icon-fb"></span>
-									<span class="icon-fb"></span>
+									<span class="icon-retardante-fuego"></span>
+									<span class="icon-sistema-encapsulado"></span>
+									<span class="icon-sistema-sin-resortes"></span>
 								</div>
 								<p class="text-left mb-0"><a href="#" class="view-catalog italic azul-01">VER DETALLE</a></p>
 							</div>

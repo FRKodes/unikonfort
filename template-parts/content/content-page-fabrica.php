@@ -33,7 +33,7 @@
 
 		</div>
 
-		<div class="row">
+		<div class="row bottom-blue-line">
 			<div class="col-xs-12 col-md-12">
 				<h2 class="title mayus text-center azul-01 mb-40 mt-40">Tecnología Unikonfort</h2>
 			</div>
@@ -41,7 +41,9 @@
 			<?php for ($i=0; $i < 4; $i++) { ?>
 			
 			<div class="col-xs-12 col-md-6 fabrica-item">
-				<div class="imagen"><figure><img class="cien" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/logo-unikonfort-blanco.svg'; ?>" alt=""></figure></div>
+				<div class="imagen">
+					<span class="icon-sistema-encapsulado azul-01"></span>
+				</div>
 				<div class="info">
 					<h3 class="azul-01 mayus"><span class="thin">Sistema </span> <br>Encapsulado</h3>
 					<p>Barras perimetrales HD que refuerzan los bordes y dan estabilidad al colchón.</p>
@@ -49,12 +51,17 @@
 			</div>
 
 			<?php } ?>
+		</div>
+		
+		<div class="row">
 
 
 			<?php for ($i=0; $i < 4; $i++) { ?>
 			
 			<div class="col-xs-12 col-md-6 fabrica-item">
-				<div class="imagen"><figure><img class="cien" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/logo-unikonfort-blanco.svg'; ?>" alt=""></figure></div>
+				<div class="imagen">
+					<span class="icon-sistema-encapsulado amarillo-01"></span>
+				</div>
 				<div class="info">
 					<h3 class="amarillo-01 mayus"><span class="thin">Sistema </span> <br>Encapsulado</h3>
 					<p>Barras perimetrales HD que refuerzan los bordes y dan estabilidad al colchón.</p>
