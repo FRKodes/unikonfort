@@ -233,6 +233,14 @@ h1.entry-title
 			width 60%
 			display inline-block
 			height auto
+.slick-arrow
+	position absolute
+	top 50px
+	color gris-01
+	&.slick-next
+		right 0
+		transform rotate(180deg)
+		top 40px
 article
 	width 100%
 .contact-line
@@ -317,15 +325,39 @@ footer
 				color white
 				transition color .5s ease
 @media screen and (min-width: 375px)
+	.slick-arrow
+		top 75px
+		&.slick-next
+			top 65px
 	.catalog-item
 		.inner-container
 			.info
 				background-size 100px
-@media screen and (min-width: 375px)
 	.clients-container
 		.client-item
 			img
 				width 80%
+@media screen and (min-width: 425px)
+	.slick-arrow
+		top 90px
+		&.slick-next
+			top 80px
+@media screen and (min-width: 480px)
+	.slick-arrow
+		top 55px
+		&.slick-prev
+			left -15px
+		&.slick-next
+			right -15px
+			top 45px
+@media screen and (min-width: 600px)
+	.slick-arrow
+		top 40px
+		&.slick-prev
+			left -20px
+		&.slick-next
+			right -20px
+			top 30px
 @media screen and (min-width: 768px)
 	.inner-banner-home
 		height 300px
@@ -348,6 +380,11 @@ footer
 		padding-bottom 50px
 	.inner-map
 		height 300px
+	.slick-arrow
+		&.slick-prev
+			top 50px
+		&.slick-next
+			top 40px
 @media screen and (min-width: 992px)
 	.inner-top-bar-container
 		margin 0 auto
@@ -410,6 +447,14 @@ footer
 				display inline-block
 	.inner-map
 		height 420px
+	.slick-arrow
+		font-size 2em
+		&.slick-prev
+			top 35px
+			left -35px
+		&.slick-next
+			top 20px
+			right -35px
 @media screen and (min-width: 1200px)
 	.inner-page-banner
 		height 350px

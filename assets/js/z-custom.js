@@ -18,6 +18,8 @@ $('.clients-container').slick({
 	infinite: true,
 	slidesToShow: 5,
 	slidesToScroll: 1,
+	prevArrow: '<button type="button" class="slick-arrow slick-prev icon-flecha"></button>',
+	nextArrow: '<button type="button" class="slick-arrow slick-next icon-flecha"></button>',
 	responsive: [
 	    {
 	      breakpoint: 1024,
