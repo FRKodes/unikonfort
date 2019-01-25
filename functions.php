@@ -38,7 +38,7 @@ function product_custom_post_type() {
         'description'         => __( 'Productos Unikonfort' ),
         'labels'              => $labels,
         'supports'            => array( 'title', 'editor', 'thumbnail'),
-        'hierarchical'        => false,
+        'hierarchical'        => true,
         'public'              => true,
         'show_ui'             => true,
         'show_in_menu'        => true,
@@ -50,7 +50,7 @@ function product_custom_post_type() {
         'exclude_from_search' => false,
         'publicly_queryable'  => true,
         'capability_type'     => 'page',
-        'taxonomies'          => array( 'product-category' ),
+        'taxonomies'          => array( 'category' ),
     );
      
     register_post_type( 'producto', $args );

@@ -1,6 +1,6 @@
 <?php
 /**
- * Template part for displaying hogar page content in page.php
+ * Template part for displaying nosotros page content in page.php
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
@@ -20,8 +20,8 @@
 		<div class="row">
 			<div class="col-xs-12 col-sm-12">
 				<h3 class="mayus azul-01">
-					<span class="thin">El confort de los mejores</span> <br>
-					Hoteles en tu hogar
+					<span class="thin">Los mejores colchones</span> <br>
+					desde hace casi 40 años.
 				</h3>
 			</div>
 		</div>
@@ -35,7 +35,7 @@
 			</div>
 
 			<div class="col-xs-12 col-sm-12 col-md-6 hoteleria-images">
-				<figure><img class="cien mt--70" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/linea-hotelera.jpg'; ?>" alt=""></figure>
+				<figure><img class="cien mt--60" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/imagen-nosotros-fabrica-de-colchones-guadalajara.jpg'; ?>" alt="imagen nosotros fabrica de colchones guadalajara"></figure>
 			</div>
 
 		</div>

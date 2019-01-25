@@ -31,11 +31,11 @@
 			<div class="col-xs-12 col-sm-12 col-md-6">
 				
 				<?php the_content(); ?>
-
+				<p class="text-right mb-0"><a href="/nosotros" class="view-catalog italic azul-01">VER CATÁLOGO</a></p>
 			</div>
 
 			<div class="col-xs-12 col-sm-12 col-md-6 hoteleria-images">
-				<figure><img class="cien" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/linea-hotelera.jpg'; ?>" alt=""></figure>
+				<figure><img class="cien mt--70" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/linea-hotelera.jpg'; ?>" alt="fábrica de colchones hoteleros en Guadalajara, línea hotelera."></figure>
 			</div>
 
 		</div>
@@ -48,7 +48,7 @@
 			
 			<div class="col-xs-12 col-md-12">
 				
-				<h2 class="mayus azul-01 text-center">
+				<h2 class="mayus azul-01 text-center mb-40 mt-20">
 					<span class="thin">Algunos de</span> <br>nuestros clientes
 				</h2>
 
