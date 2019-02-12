@@ -54,10 +54,29 @@
 			<div class="row">
 				<?php if (is_front_page()) { ?>
 					<div class="main-banner-container">
-						<div class="item"></div>
-						<div class="item"></div>
-						<div class="item"></div>
+						<?php
+
+						$args = array(
+						    'post_type' => 'banner',
+						    'post_status' => 'publish',
+						    'posts_per_page' => 6
+						);
+
+						$banners = new WP_Query( $args );
+
+
+
+						$banners = new WP_Query( $args );
+						while ( $banners->have_posts() ) : $banners->the_post();?>
+							<div class="item" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>)"></div>
+							<?php 
+						endwhile;
+						wp_reset_query(); ?>
+
+						
+
 					</div>
+
 				<?php } else { ?>
 					<div class="inner-page-banner" style="background-image: url(<?php echo get_the_post_thumbnail_url() ?>);"></div>
 				<?php } ?>

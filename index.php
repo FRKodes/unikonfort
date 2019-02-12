@@ -17,9 +17,15 @@
 get_header();
 ?>
 
-	<section id="primary" class="content-area">
-		<main id="main" class="site-main">
-
+	<section id="primary" class="content-area container">
+		<main id="main" class="site-main row">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12">
+						<h1 class="title azul-01 text-center mt-20 mb-40">BLOG</h1>
+					</div>
+				</div>
+			</div>
 		<?php
 		if ( have_posts() ) {
 

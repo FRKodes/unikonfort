@@ -11,47 +11,26 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php
-		if ( is_sticky() && is_home() && ! is_paged() ) {
-			printf( '<span class="sticky-post">%s</span>', _x( 'Featured', 'post' ) );
-		}
-		if ( is_singular() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
-		else :
-			the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
-		endif;
-		?>
-	</header><!-- .entry-header -->
+	<article id="post-<?php the_ID(); ?>" class="col-xs-12 col-md-6 col-lg-4 blog-item">
+		<div class="inner-blog-container">
+			<header class="">
+				<div class="image">
+					<a href="<?php the_permalink() ?>">
+						<figure>
+							<img src="<?php echo get_the_post_thumbnail_url($recent['ID']); ?>" alt="<?php echo $recent['post_title']; ?>">
+						</figure>
+					</a>
+				</div>
+			</header><!-- .entry-header -->
 
-	<div class="entry-content">
-		<?php
-		the_content(
-			sprintf(
-				wp_kses(
-					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>' ),
-					array(
-						'span' => array(
-							'class' => array(),
-						),
-					)
-				),
-				get_the_title()
-			)
-		);
-
-		wp_link_pages(
-			array(
-				'before' => '<div class="page-links">' . __( 'Pages:' ),
-				'after'  => '</div>',
-			)
-		);
-		?>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		Entry footer, please edit me :/
-	</footer><!-- .entry-footer -->
-</article><!-- #post-${ID} -->
+			<div class="info">
+				<h2 class="title mayus">
+					<a class="azul-01" rel="bookmark" href="<?php the_permalink() ?>">
+						<?php the_title( ); ?>
+					</a>
+				</h2>
+				<p class="italic excerpt-blog"><?php echo substr(get_the_excerpt(), 0,200) . " ..."; ?></p>
+				<p class="text-right"><a href="<?php the_permalink() ?>" class="view-catalog italic azul-01">VER MÁS</a></p>
+			</div>
+		</div>
+	</article><!-- #post-${ID} -->

@@ -130,37 +130,50 @@ get_header();
 					<h2 class="title azul-01 text-center mt-40 mb-40">ÚLTIMAS NOTICIAS</h2>
 				</div>
 
-				<div class="col-xs-12 col-md-6 col-lg-4 blog-item">
-					<div class="inner-blog-container">
-						<div class="image"><figure><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/blog01.png'; ?>" alt="ok"></figure></div>
-						<div class="info">
-							<p class="title azul-01 mayus">Elit nemo tempore, earum aspernatur hic</p>
-							<p class="italic excerpt-blog">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo tempore, earum aspernatur hic ipsum.</p>
-							<p class="text-right"><a href="#" class="view-catalog italic azul-01">VER MÁS</a></p>
+				<?php
+				$counter = 0;
+				$args_recent_posts = array(
+					'numberposts' => 3,
+					'offset' => 0,
+					'category' => 0,
+					'orderby' => 'post_date',
+					'order' => 'DESC',
+					'include' => '',
+					'exclude' => '',
+					'meta_key' => '',
+					'meta_value' =>'',
+					'post_type' => 'post',
+					'post_status' => 'publish',
+					'suppress_filters' => true
+				);
+
+				$recent_posts = wp_get_recent_posts( $args_recent_posts );
+
+				$recent_posts = wp_get_recent_posts();
+					foreach( $recent_posts as $recent ){
+						$counter ++;
+						?>
+
+						<div class="col-xs-12 col-md-6 col-lg-4 blog-item">
+							<div class="inner-blog-container">
+								<div class="image">
+									<a href="<?php the_permalink($recent['ID']) ?>"><figure><img src="<?php echo get_the_post_thumbnail_url($recent['ID']); ?>" alt="<?php echo $recent['post_title']; ?>"></figure></div></a>
+								<div class="info">
+									<p class="title mayus"><a class="azul-01" href="<?php the_permalink($recent['ID']) ?>"><?php echo $recent["post_title"]; ?></a></p>
+									<p class="italic excerpt-blog"><?php echo substr($recent["post_excerpt"], 0, 100); ?></p>
+									<p class="text-right"><a href="<?php the_permalink($recent['ID']) ?>" class="view-catalog italic azul-01">VER MÁS</a></p>
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-				<div class="col-xs-12 col-md-6 col-lg-4 blog-item">
-					<div class="inner-blog-container">
-						
-						<div class="image"><figure><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/blog02.png'; ?>" alt=""></figure></div>
-						<div class="info">
-							<p class="title azul-01 mayus">Elit nemo tempore, earum aspernatur hic</p>
-							<p class="italic excerpt-blog">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo tempore, earum aspernatur hic ipsum.</p>
-							<p class="text-right"><a href="#" class="view-catalog italic azul-01">VER MÁS</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-12 col-md-6 col-lg-4 blog-item">
-					<div class="inner-blog-container">
-						<div class="image"><figure><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/blog03.png'; ?>" alt=""></figure></div>
-						<div class="info">
-							<p class="title azul-01 mayus">Elit nemo tempore, earum aspernatur hic</p>
-							<p class="italic excerpt-blog">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo tempore, earum aspernatur hic ipsum.</p>
-							<p class="text-right"><a href="#" class="view-catalog italic azul-01">VER MÁS</a></p>
-						</div>
-					</div>
-				</div>
+
+						<?php
+						if ($counter == 3) {
+							break;
+						}
+					}
+					wp_reset_query();
+				?>
+
 			</div>
 		</div>
 

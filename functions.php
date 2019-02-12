@@ -56,3 +56,46 @@ function product_custom_post_type() {
     register_post_type( 'producto', $args );
 }
 add_action( 'init', 'product_custom_post_type' );
+
+
+
+function banner_custom_post_type() {
+
+    $labels = array(
+        'name'                => _x( 'Banners', 'Post Type General Name' ),
+        'singular_name'       => _x( 'Banner', 'Post Type Singular Name' ),
+        'menu_name'           => __( 'Banners' ),
+        'parent_item_colon'   => __( 'Banner padre' ),
+        'all_items'           => __( 'Todos los Banners' ),
+        'view_item'           => __( 'Ver Banner' ),
+        'add_new_item'        => __( 'Agregar un Banner' ),
+        'add_new'             => __( 'Agregar nuevo Banner' ),
+        'edit_item'           => __( 'Editar Banner' ),
+        'update_item'         => __( 'Actualizar Banner' ),
+        'search_items'        => __( 'Buscar Banner' ),
+        'not_found'           => __( 'Not Found' ),
+        'not_found_in_trash'  => __( 'Not found in Trash' ),
+    );
+     
+    $args = array(
+        'label'               => __( 'Banners' ),
+        'description'         => __( 'Banners Unikonfort' ),
+        'labels'              => $labels,
+        'supports'            => array( 'title', 'editor', 'thumbnail'),
+        'hierarchical'        => true,
+        'public'              => true,
+        'show_ui'             => true,
+        'show_in_menu'        => true,
+        'show_in_nav_menus'   => true,
+        'show_in_admin_bar'   => true,
+        'menu_position'       => 5,
+        'can_export'          => true,
+        'has_archive'         => true,
+        'exclude_from_search' => true,
+        'publicly_queryable'  => true,
+        'capability_type'     => 'page',
+    );
+     
+    register_post_type( 'banner', $args );
+}
+add_action( 'init', 'banner_custom_post_type' );

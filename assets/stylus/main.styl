@@ -74,7 +74,9 @@ body
 	display block
 	margin-bottom 60px
 	.item
-		background transparent url(./assets/images/banner_home.jpg) no-repeat center center
+		background-color transparent
+		background-position center center
+		background-repeat no-repeat
 		background-size 950px
 		height 250px
 		width 100%
@@ -175,6 +177,12 @@ a.view-catalog
 			overflow hidden
 		.excerpt-blog
 			font-size .8em
+.blog
+	.inner-blog-container
+		.info
+			.title
+				font-size 1.1em
+				height auto
 .catalog-item
 	margin-bottom 40px
 	.inner-container
@@ -336,6 +344,18 @@ footer
 			&:hover
 				color white
 				transition color .5s ease
+.navigation.post-navigation
+	text-align center
+	h2
+		margin-bottom 30px
+	.nav-links
+		a
+			color azul-01
+		.nav-previous
+		.nav-next
+			margin-bottom 30px
+.comment-respond
+	margin-top 40px
 @media screen and (min-width: 375px)
 	.slick-arrow
 		top 75px
@@ -397,6 +417,28 @@ footer
 			top 50px
 		&.slick-next
 			top 40px
+	.blog
+		.inner-blog-container
+			.info
+				.title
+					font-size 1.2em
+					height 66px
+	.navigation.post-navigation
+		text-align center
+		.nav-links
+			.nav-previous
+			.nav-next
+				width 45%
+			.nav-previous
+				float left
+				text-align left
+			.nav-next
+				float right
+				text-align right
+	.comment-form-comment
+		label
+			clear both
+			display block
 @media screen and (min-width: 992px)
 	.inner-top-bar-container
 		margin 0 auto

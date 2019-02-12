@@ -43,7 +43,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		Entry footer, edit me please :/
 	</footer><!-- .entry-footer -->
 
 	<?php if ( ! is_singular( 'attachment' ) ) : ?>
