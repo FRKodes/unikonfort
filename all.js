@@ -112,6 +112,7 @@ $('.main-menu li a').addClass('nav-link');
 
 $('.main-banner-container').slick({
 	infinite: true,
+	autoplay: true,
 	slidesToShow: 1,
 	arrows: false,
 	dots: true,

@@ -65,6 +65,7 @@ body
 		.nav-link
 			color white
 			transition color .5s ease
+			text-transform uppercase
 			&:hover
 				color azul-01
 				transition color .5s ease
@@ -223,6 +224,29 @@ a.view-catalog
 				color azul-01
 				font-size 1.5em
 				margin-right 3px
+.catalog-cat-item
+	.inner-container
+		position relative
+		height 800px
+		display block
+		background #0093b0
+		margin-bottom 40px
+		&.bel-air
+			background #0093AF !important
+		&.confort-home
+			background #212d3b !important
+		&.top-hotel
+			background #07516a !important
+		.image
+			position relative
+			z-index 1
+			width 100%
+		.info
+			position absolute
+			bottom 20px
+			z-index 2
+			width 100%
+			padding 0 20px
 .skip-link
 	display none
 h1.entry-title
@@ -470,6 +494,12 @@ form
 		label
 			clear both
 			display block
+	.catalog-cat-item
+		.inner-container
+			&.hotel-line
+				.info
+					top 300px
+					bottom unset
 @media screen and (min-width: 992px)
 	.inner-top-bar-container
 		margin 0 auto
@@ -540,6 +570,13 @@ form
 		&.slick-next
 			top 20px
 			right -35px
+	.catalog-cat-item
+		.inner-container
+			&.hotel-line
+			&.confort-home
+				.info
+					top 395px
+					
 @media screen and (min-width: 1200px)
 	.inner-page-banner
 		height 350px
@@ -559,3 +596,9 @@ form
 		span
 			margin-right 5px
 			font-size 1.4em
+	.catalog-cat-item
+		.inner-container
+			&.hotel-line
+			&.confort-home
+				.info
+					top 470px

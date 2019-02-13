@@ -31,7 +31,7 @@
 			<div class="col-xs-12 col-sm-12 col-md-6">
 				
 				<?php the_content(); ?>
-				<p class="text-right mb-0"><a href="/nosotros" class="view-catalog italic azul-01">VER CATÁLOGO</a></p>
+				<p class="text-right mb-0"><a href="/catalogo" class="view-catalog italic azul-01">VER CATÁLOGO</a></p>
 			</div>
 
 			<div class="col-xs-12 col-sm-12 col-md-6 hoteleria-images">
