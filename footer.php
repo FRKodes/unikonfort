@@ -27,7 +27,6 @@
 						<p class="footer-line"><span class="icon-watch"></span> Lunes a Viernes 8:00 a 18:00 Hrs.</p>
 						<ul class="social-stuff">
 							<li><a target="_blank" href="https://www.facebook.com/colchonesunikonfort/" class="icon-fb"></a></li>
-							<li><a target="_blank" href="#" class="icon-ig"></a></li>
 						</ul>
 					</div>
 					<div class="col-xs-12 col-md-4 text-center">
@@ -75,6 +74,6 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+<script async defer src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBR2bxbHLtJj9agfUxeojUUiusyxKaxso8&language=es&callback=initialize"></script>
 </body>
 </html>

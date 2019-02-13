@@ -98,3 +98,9 @@
 .icon-flecha:before {
   content: "\74";
 }
+.icon-volteable:before {
+  content: "\75";
+}
+.icon-novolteable:before {
+  content: "\76";
+}

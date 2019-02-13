@@ -18,6 +18,16 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11" />
 	<?php wp_head(); ?>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700" rel="stylesheet">
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-84802922-19"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-84802922-19');
+	</script>	
 </head>
 
 <body <?php body_class(); ?>>
@@ -52,7 +62,7 @@
 	<div id="content" class="site-content">
 		<div class="container-fluid">
 			<div class="row">
-				<?php if (is_front_page()) { ?>
+				<?php if (is_front_page() || is_page('fabrica-de-colchones-para-hoteles')) { ?>
 					<div class="main-banner-container">
 						<?php
 

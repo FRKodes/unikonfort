@@ -28,18 +28,18 @@ get_header();
 					<div class="info">
 						<h2 class="title azul-01"><span class="thin">LÍNEA</span> <br><b>HOTELERA</b></h2>
 						<p class="description">
-							Hotel line es la más clásica línea hotelera de Unikonfort, el armado de esta línea se lleva acabo de manera tradicional y permite un terminado compacto que prolonga la vida del colchón. <br> <br>
-							Ideal para hoteles de alto trá co que quieren ofrecer un descanso reparador y ortopédico a sus huéspedes.
+						Hotel line es la más clásica línea hotelera de Unikonfort, el armado de esta línea se lleva acabo de manera tradicional y permite un terminado compacto que prolonga la vida del colchón. <br> <br>
+						Ideal para hoteles de alto trá co que quieren ofrecer un descanso reparador y ortopédico a sus huéspedes.
 						</p>
 						<p class="text-right"><a href="/catalogo" class="view-catalog italic azul-01">VER CATÁLOGO</a></p>
 					</div>
 				</div>
 				<div class="col-xs-12 col-md-6 linea-block">
-					<div class="imagen-linea"><figure><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/linea-residencial.jpg'; ?>" alt="Fábrica de colchones línea residencial. Fábrica de colchones para el hogar"></figure></div>
+					<div class="imagen-linea"><figure><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/linea-residencial.jpg'; ?>" alt="Fábrica de colchones, linea residencial."></figure></div>
 					<div class="info">
 						<h2 class="title verde-01"><span class="thin">LÍNEA</span> <br><b>RESIDENCIAL</b></h2>
 						<p class="description">
-							Confort Home está inspirada en aquellos hoteles de alto nivel que buscan ofrecer sensaciones y experiencias nuevas a sus huéspedes. Uno de los secretos de Confort Home está en sus acojinamientos principales, fabricados en latex foam de alta resistencia, el cual, por sus propiedades, ofrece una sensación de adaptación, soporte y relajación en todas las áreas del cuerpo. <br><br>
+							Confort Home está inspirada en aquellos hoteles de alto nivel que buscan ofrecer sensaciones y experiencias nuevas a sus huéspedes. Uno de los secretos de Confort Home está en sus acojinamientos principales, fabricados en latex foam de alta resistencia, el cual, por sus propiedades, ofrece una sensación de adaptación, soporte y relajación en todas las áreas del cuerpo. <br> <br>
 							La línea confort Home, está diseñada utilizando solo los materiales que por su naturaleza ofrecen una calidad total, utilizando componentes que eviten la transmisión de movimiento y ofrezcan sensaciones especiales.
 						</p>
 						<p class="text-right"><a href="/catalogo" class="view-catalog italic azul-01">VER CATÁLOGO</a></p>
@@ -112,6 +112,7 @@ get_header();
 			<div class="row garantia">
 				
 				<div class="col-xs-12 col-md-6">
+
 					<p>Esta garantía aplica atodos los modelos de las distintas líneas fabricados por Unikonfort. 5 años totales con reemplazo sin costo: del año 1 al año 5.</p>
 					<p>Unikonfort se compromete a reemplazar por piezas nuevas los productos suministrados si estos llegaran a sufrir deformaciones mayores a 1 pulgada por lado de uso. 10 años contra defectos de fábrica: del año 6 al año 10</p>
 					<p>Unikonfort se compromete a respaldar a sus clientes reparando los daños que pudieran aparecer en el colchón, a continuación, presentamos el listado de defectos de fábrica que respaldamos:</p>
@@ -127,6 +128,7 @@ get_header();
 						<li>Falta de rotación: Si los colchones no han sido rotados y girados trimestralmente y presentan desgastes no uniformes en sus lados.</li>
 						<li>Bases dañadas: Si la base donde está instalado el colchón tiene hundimientos, deformaciones o es áspera generando así un desgaste</li>
 					</ul>
+
 				</div>
 				
 				<div class="col-xs-12 col-md-6">

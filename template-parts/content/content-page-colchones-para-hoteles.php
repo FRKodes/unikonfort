@@ -41,7 +41,7 @@
 		</div>
 
 		
-		<div class="inner-banner-home"></div>
+		<div class="inner-banner-hoteles"></div>
 
 
 		<div class="row">

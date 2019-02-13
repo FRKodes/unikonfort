@@ -128,7 +128,6 @@ a.view-catalog
 	font-size .9em
 
 .inner-banner-home
-	background purple
 	height 200px
 	display block
 	width 160%
@@ -136,6 +135,15 @@ a.view-catalog
 	margin-top 30px
 	margin-bottom 30px
 	background transparent url(./assets/images/banner_home_inner.jpg) no-repeat center center
+	background-size cover
+.inner-banner-hoteles
+	height 200px
+	display block
+	width 160%
+	margin-left -30%
+	margin-top 30px
+	margin-bottom 30px
+	background transparent url(./assets/images/500-hoteles-fabrica-de-colchones-guadalajara.jpg) no-repeat center center
 	background-size cover
 .soluciones-a-medida
 	.image
@@ -287,8 +295,7 @@ article
 	margin-left -30%
 	margin-top 60px
 	margin-bottom 60px
-	background transparent url(./assets/images/mapa.jpg) no-repeat center center
-	background-size cover
+	background gray
 footer
 	background azul-03
 	color white
@@ -356,6 +363,24 @@ footer
 			margin-bottom 30px
 .comment-respond
 	margin-top 40px
+.form-group
+	&.error
+		input.form-control
+		select.form-control
+		textarea.form-control
+			border 1px solid red
+			transition border-color .5s ease
+form
+	position relative
+.sent_mail_alert
+	background rgba(black, .9)
+	padding 20px 30px
+	color azul-01
+	text-align center
+	position absolute
+	width 100%
+	bottom 100px
+	display none
 @media screen and (min-width: 375px)
 	.slick-arrow
 		top 75px
@@ -396,6 +421,12 @@ footer
 		margin-top 40px
 		margin-bottom 40px
 		background transparent url(./assets/images/banner_home_inner.jpg) no-repeat center center
+		background-size cover
+	.inner-banner-hoteles
+		height 300px
+		margin-top 40px
+		margin-bottom 40px
+		background transparent url(./assets/images/500-hoteles-fabrica-de-colchones-guadalajara.jpg) no-repeat center center
 		background-size cover
 	.inner-page-banner
 		height 250px
