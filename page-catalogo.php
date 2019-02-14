@@ -42,7 +42,7 @@ get_header();
 												Los modelos Bel Air, al igual que Hotel Line, cuentan con un armado tradicional, más, sin embargo, su terminado se de ne especial ya que se agregan colchonetas tipo Europeas en las super cies, la cual ayudan en gran medida a obtener un mejor confort y experiencia del huésped. <br><br>
 												Bel Air es una línea muy versátil, ya que cuenta con opciones para diferentes necesidades y presupuestos.
 											</p>
-											<p class="text-left mb-0"><a href="#" class="view-catalog white italic azul-01">VER MODELOS</a></p>
+											<p class="text-left mb-0"><a href="/colchones-hoteleros-bel-air/" class="view-catalog white italic azul-01">VER MODELOS</a></p>
 										</div>
 									</div>
 								</div>
@@ -61,7 +61,7 @@ get_header();
 												Hotel line es la más clásica línea hotelera de Unikonfort, el armado de esta línea se lleva acabo de manera tradicional y permite un terminado compacto que prolonga la vida del colchón. <br><br>
 												Ideal para hoteles de alto trá co que quieren ofrecer un descanso reparador y ortopédico a sus huéspedes.
 											</p>
-											<p class="text-left mb-0"><a href="#" class="view-catalog white italic azul-01">VER MODELOS</a></p>
+											<p class="text-left mb-0"><a href="/colchones-hotel-line/" class="view-catalog white italic azul-01">VER MODELOS</a></p>
 										</div>
 									</div>
 								</div>
@@ -80,7 +80,7 @@ get_header();
 												Confort Home está inspirada en aquellos hoteles de alto nivel que buscan ofrecer sensaciones y experiencias nuevas a sus huéspedes. <br><br>
 												La línea confort Home, está diseñada utilizando solo los materiales que por su naturaleza ofrecen una calidad total, utilizando componentes que eviten la transmisión de movimiento y ofrezcan sensaciones especiales.
 											</p>
-											<p class="text-left mb-0"><a href="#" class="view-catalog white italic azul-01">VER MODELOS</a></p>
+											<p class="text-left mb-0"><a href="/colchones-confort-home/" class="view-catalog white italic azul-01">VER MODELOS</a></p>
 										</div>
 									</div>
 								</div>
@@ -99,7 +99,7 @@ get_header();
 												Ofrece el soporte que el huésped necesita, fabricando una línea de modelos con núcleos reforzados para un mayor soporte lumbar en combinación con colchonetas suaves para lograr el balance entre un descanso ortopédico y de un alto nivel de confort. <br><br>
 												La composición ofrece mayor refuerzo y sensación de firmeza en los bordes del colchón, evitando deformaciones.
 											</p>
-											<p class="text-left mb-0"><a href="#" class="view-catalog white italic azul-01">VER MODELOS</a></p>
+											<p class="text-left mb-0"><a href="/colchones-top-hotel/" class="view-catalog white italic azul-01">VER MODELOS</a></p>
 										</div>
 									</div>
 								</div>

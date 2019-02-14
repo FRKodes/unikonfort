@@ -87,8 +87,10 @@
 
 					</div>
 
-				<?php } else { ?>
-					<div class="inner-page-banner" style="background-image: url(<?php echo get_the_post_thumbnail_url() ?>);"></div>
+				<?php } else { 
+					if ( is_singular( 'page' ) || is_single() && !is_singular( 'producto' )) { ?>
+					    <div class="inner-page-banner" style="background-image: url(<?php echo get_the_post_thumbnail_url() ?>);"></div><?php
+					}?>
 				<?php } ?>
 			</div>
 		</div>

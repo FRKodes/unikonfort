@@ -187,6 +187,8 @@ a.view-catalog
 		.excerpt-blog
 			font-size .8em
 .blog
+	h1.title
+		margin-top 100px !important
 	.inner-blog-container
 		.info
 			.title
@@ -202,6 +204,8 @@ a.view-catalog
 		.image
 			img
 				height auto
+				width 100%
+				display block
 		.info
 			padding 15px
 			background transparent url(./assets/images/garantia-unikonfort.jpg) no-repeat 90% 75%
@@ -212,6 +216,12 @@ a.view-catalog
 				h2
 					font-size 1.4em
 					margin-bottom 2px
+					a
+						transition color .5s ease
+						&:hover
+							color amarillo-01
+							transition color .5s ease
+							text-decoration none
 				h3
 					font-size 1em
 			.texts
