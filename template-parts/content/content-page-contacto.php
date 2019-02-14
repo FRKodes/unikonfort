@@ -63,7 +63,7 @@
 
 		</div>
 
-		<div class="inner-map"></div>
+		<div class="inner-map" id="inner-map"></div>
 
 
 	</div><!-- .entry-content -->

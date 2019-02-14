@@ -25,21 +25,25 @@ get_header();
 					<div class="col-xs-12 col-sm-12">
 
 						<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-							<header class="entry-header">
-								<?php get_template_part( 'template-parts/header/entry', 'header' ); ?>
-							</header>
+							<div class="container">
+								<div class="row">
+									<div class="col-xs-12 col-md-6 detail-image-container">
+										<figure><img src="<?php the_field('imagen_detalle'); ?>" alt="<?php the_title() ?>"></figure>
+									</div>
+									<div class="col-xs-12 col-md-6">
+										<header class="entry-header product-detail">
+											<?php get_template_part( 'template-parts/header/entry', 'header' ); ?>
+										</header>
 
-							<div class="entry-content">
-								<?php the_content(); ?>
-							</div><!-- .entry-content -->
+										<div class="entry-content">
+											<?php the_content(); ?>
+										</div><!-- .entry-content -->
 
-							<footer class="entry-footer">
-							</footer><!-- .entry-footer -->
-
-							<?php if ( ! is_singular( 'attachment' ) ) : ?>
-							<?php get_template_part( 'template-parts/post/author', 'bio' ); ?>
-							<?php endif; ?>
-
+										<footer class="entry-footer">
+										</footer><!-- .entry-footer -->
+									</div>
+								</div>
+							</div>
 						</article><!-- #post-${ID} -->
 						
 					</div>

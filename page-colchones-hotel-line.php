@@ -53,7 +53,7 @@ get_header();
 												<?php } ?>
 											</div>
 											<div class="texts">
-												<?php the_content() ?>
+												<?php the_field('caracteristicas_principales') ?>
 											</div>
 											<div class="icons">
 												
