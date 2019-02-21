@@ -18,6 +18,26 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11" />
 	<?php wp_head(); ?>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700" rel="stylesheet">
+	<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		#mc_embed_signup{
+			clear:left; 
+			color: #fff;
+			background: none;
+		}
+		#mc_embed_signup input[type="email"]{
+			background-color: #fff;
+			width: 100%;
+			padding: 10px;
+			border: none;
+		}
+		#mc_embed_signup input[type="submit"]{
+			background-color: #007bff;
+			border-color: #007bff;
+		}
+
+
+	</style>
 	<link rel="icon" type="image/png" href="/favicon.png">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-84802922-19"></script>

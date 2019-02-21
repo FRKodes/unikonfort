@@ -55,8 +55,8 @@ body
 	background azul-03
 .inner-top-bar-container
 	width 100%
-	display flex
-	justify-content space-between
+.navbar-toggler
+	float right
 .navbar-brand
 	img
 		width 100px
@@ -66,6 +66,7 @@ body
 			color white
 			transition color .5s ease
 			text-transform uppercase
+			text-align center
 			&:hover
 				color azul-01
 				transition color .5s ease
@@ -547,6 +548,10 @@ form
 	.main-menu.navbar-nav
 		float right
 		margin 0 !important
+	.navbar-dark
+		.navbar-nav
+			.nav-link
+				text-align right
 	.menu-menu-top-container
 		align-items center
 		justify-content flex-end

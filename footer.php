@@ -50,14 +50,28 @@
 				<div class="col-xs-12 col-md-4">
 					<h3 class="title text-center mt-20 mb-20">SUSCRÍBETA A NUESTRO NEWSLETTER</h3>
 					<p>Deja tu correo para recibir ofertas especiales y promociones.</p>
-					<form action="">
+
+					<div id="mc_embed_signup">
+					<form action="https://unikonfort.us20.list-manage.com/subscribe/post?u=57ec48b943e500e34853602ad&amp;id=2dc1b6eb35" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					    
+					    <div id="mc_embed_signup_scroll">
+					    	<div class="form-group"><input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="Correo Electrónico" required></div>
+							<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+							<div style="position: absolute; left: -5000px;" class="form-group" aria-hidden="true"><input type="text" name="b_57ec48b943e500e34853602ad_2dc1b6eb35" tabindex="-1" value=""></div>
+							<div class="form-group"><input type="submit" value="Enviar" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary"></div>
+					    </div>
+					</form>
+					</div>
+
+
+					<!-- <form action="">
 						<div class="form-group">
 							<input type="text" class="form-control">
 						</div>
 						<div class="form-group">
 							<input type="submit" class="btn btn-primary" value="Enviar">
 						</div>
-					</form>
+					</form> -->
 				</div>
 					
 			</div>
