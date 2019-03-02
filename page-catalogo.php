@@ -39,8 +39,8 @@ get_header();
 											<h2 class="title azul-01 white mayus">BEL-AIR</h2>
 											<p>HOTELEROS CLÁSICOS CON UN TOQUE DE CONFORT</p>
 											<p>
-												Los modelos Bel Air, al igual que Hotel Line, cuentan con un armado tradicional, más, sin embargo, su terminado se de ne especial ya que se agregan colchonetas tipo Europeas en las super cies, la cual ayudan en gran medida a obtener un mejor confort y experiencia del huésped. <br><br>
-												Bel Air es una línea muy versátil, ya que cuenta con opciones para diferentes necesidades y presupuestos.
+												Los modelos Bel Air, al igual que Hotel Line, cuentan con un armado tradicional, más, sin embargo, su terminado se define especial ya que se adhieren colchonetas tipo Europeas en las superficies, la cual ayudan en gran medida a obtener un mejor confort y experiencia del huésped. <br><br>
+												Bel Air es una línea muy versátil, ya que cuenta con opciones para diferentes necesidades y presupuestos.
 											</p>
 											<p class="text-left mb-0"><a href="/colchones-hoteleros-bel-air/" class="view-catalog white italic azul-01">VER MODELOS</a></p>
 										</div>
@@ -58,8 +58,8 @@ get_header();
 											<h2 class="title azul-01 white mayus">HOTEL LINE</h2>
 											<p>LA CLÁSICA DE ALTA DURACIÓN</p>
 											<p>
-												Hotel line es la más clásica línea hotelera de Unikonfort, el armado de esta línea se lleva acabo de manera tradicional y permite un terminado compacto que prolonga la vida del colchón. <br><br>
-												Ideal para hoteles de alto trá co que quieren ofrecer un descanso reparador y ortopédico a sus huéspedes.
+												Hotel line es la más clásica línea hotelera de Unikonfort, el ensamblado de esta línea se lleva acabo de manera tradicional y permite un terminado compacto que prolonga la vida del colchón. <br><br>
+												Ideal para hoteles de alto tráfico que quieren ofrecer un descanso reparador y ortopédico a sus huéspedes.
 											</p>
 											<p class="text-left mb-0"><a href="/colchones-hotel-line/" class="view-catalog white italic azul-01">VER MODELOS</a></p>
 										</div>
@@ -96,8 +96,8 @@ get_header();
 											<h2 class="title azul-01 white mayus">TOP HOTEL</h2>
 											<p>DESCANSO ORTOPÉDICO Y CONFORT DE ALTO NIVEL.</p>
 											<p>
-												Ofrece el soporte que el huésped necesita, fabricando una línea de modelos con núcleos reforzados para un mayor soporte lumbar en combinación con colchonetas suaves para lograr el balance entre un descanso ortopédico y de un alto nivel de confort. <br><br>
-												La composición ofrece mayor refuerzo y sensación de firmeza en los bordes del colchón, evitando deformaciones.
+												Ofrece el soporte que tu huésped necesita, TOP-HOTEL es una línea de modelos con núcleos reforzados para un mayor soporte lumbar, en combinación con colchonetas suaves para lograr el balance entre un descanso ortopédico y un confort de alto nivel. <br><br>
+												La composición de esta línea ofrece mayor refuerzo y sensación de firmeza en los bordes del colchón, evitando así deformaciones.
 											</p>
 											<p class="text-left mb-0"><a href="/colchones-top-hotel/" class="view-catalog white italic azul-01">VER MODELOS</a></p>
 										</div>

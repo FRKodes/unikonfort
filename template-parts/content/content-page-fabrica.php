@@ -30,13 +30,13 @@
 			<div class="col-xs-12 col-md-6 factory-images">
 				<div class="factory-images-container">
 					<div class="item">
-						<figure><img class="cien" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/fabrica01_de_colchones_en_guadalajara.jpg'; ?>" alt="fabrica 01 de colchones en guadalajara"></figure>
+						<figure><img class="cien" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/unikonfort-fabrica-de-colchones-3.jpg'; ?>" alt="fabrica 01 de colchones en guadalajara"></figure>
 					</div>
 					<div class="item">
-						<figure><img class="cien" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/fabrica02_de_colchones_en_guadalajara.jpg'; ?>" alt="fabrica 02 de colchones en guadalajara"></figure>
+						<figure><img class="cien" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/unikonfort-fabrica-de-colchones-2.jpg'; ?>" alt="fabrica 02 de colchones en guadalajara"></figure>
 					</div>
 					<div class="item">
-						<figure><img class="cien" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/fabrica03_de_colchones_en_guadalajara.jpg'; ?>" alt="fabrica 03 de colchones en guadalajara"></figure>
+						<figure><img class="cien" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/unikonfort-fabrica-de-colchones-1.jpg'; ?>" alt="fabrica 03 de colchones en guadalajara"></figure>
 					</div>
 				</div>
 			</div>

@@ -29,7 +29,7 @@ get_header();
 						<h2 class="title azul-01"><span class="thin">LÍNEA</span> <br><b>HOTELERA</b></h2>
 						<p class="description">
 							Hotel line es la más clásica línea hotelera de Unikonfort, el armado de esta línea se lleva acabo de manera tradicional y permite un terminado compacto que prolonga la vida del colchón. <br> <br>
-							Ideal para hoteles de alto trá co que quieren ofrecer un descanso reparador y ortopédico a sus huéspedes.
+							Ideal para hoteles de alto tráfico que quieren ofrecer un descanso reparador y ortopédico a sus huéspedes.
 						</p>
 						<p class="text-right"><a href="/catalogo" class="view-catalog italic azul-01">VER CATÁLOGO</a></p>
 					</div>
@@ -118,10 +118,12 @@ get_header();
 					<ul>
 						<li>Resortes rotos o gusanillos de metal desplazados fuera del colchón. - Colchones descocidos o fallas en tela producto de una mala calidad de fabricación.</li>
 						<li>Deformación anormal del colchón.</li>
-						<li>Sensación de abultamiento debajo de la tela. - Hundimientos mayores a 2 pulgadas.</li>
+						<li>Sensación de abultamiento debajo de la tela.</li>
+						<li>Hundimientos mayores a 2 pulgadas.</li>
 					</ul>
 					
 					<p>Restricciones: La garantía queda invalida en los siguientes casos:</p>
+					
 					<ul>
 						<li>Maltrato físico aparente: mal manejo, doblados, rasgados o suciedad excesiva no propias de uso normal.</li>
 						<li>Falta de rotación: Si los colchones no han sido rotados y girados trimestralmente y presentan desgastes no uniformes en sus lados.</li>
