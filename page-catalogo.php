@@ -89,7 +89,7 @@ get_header();
 							<div class="col-xs-12 col-md-6 catalog-cat-item">
 								<div class="inner-container top-hotel">
 									<div class="image">
-										<figure><img class="cien" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/linea-unikonfort-confort-home.jpg'; ?>" alt="linea unikonfort confort home"></figure>
+										<figure><img class="cien" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/linea-unikonfort-top-hotel.jpg'; ?>" alt="linea unikonfort top hotel"></figure>
 									</div>
 									<div class="info">
 										<div class="title-block white">
