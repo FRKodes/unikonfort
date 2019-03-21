@@ -428,6 +428,18 @@ form
 .product-detail
 	h1.entry-title
 		font-size 1.3em
+figure.zoom
+	background-position 50% 50%
+	position relative
+	width 100%
+	overflow hidden
+	cursor zoom-in
+	img:hover
+		opacity 0
+	img
+		transition opacity .5s
+		display block
+		width 100%
 @media screen and (min-width: 375px)
 	.slick-arrow
 		top 75px
@@ -536,6 +548,8 @@ form
 		h1.entry-title
 			margin-top 80px
 			text-align left
+	figure.zoom
+		width 328px
 @media screen and (min-width: 992px)
 	.inner-top-bar-container
 		margin 0 auto
@@ -623,6 +637,10 @@ form
 		h1.entry-title
 			font-size 1.6em
 			margin-top 120px
+	figure.zoom
+		width 450px
+		background-position 50% 50%
+		background-size 600px
 @media screen and (min-width: 1200px)
 	.inner-page-banner
 		height 350px
@@ -662,3 +680,6 @@ form
 	.product-detail
 		h1.entry-title
 			font-size 1.8em
+	figure.zoom
+		width 550px
+		background-size 850px

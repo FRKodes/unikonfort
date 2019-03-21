@@ -116,7 +116,8 @@ get_header();
 					<p>Unikonfort se compromete a reemplazar por piezas nuevas los productos suministrados si estos llegaran a sufrir deformaciones mayores a 1 pulgada por lado de uso. 10 años contra defectos de fábrica: del año 6 al año 10</p>
 					<p>Unikonfort se compromete a respaldar a sus clientes reparando los daños que pudieran aparecer en el colchón, a continuación, presentamos el listado de defectos de fábrica que respaldamos:</p>
 					<ul>
-						<li>Resortes rotos o gusanillos de metal desplazados fuera del colchón. - Colchones descocidos o fallas en tela producto de una mala calidad de fabricación.</li>
+						<li>Resortes rotos o gusanillos de metal desplazados fuera del colchón.</li>
+						<li>Colchones descocidos o fallas en tela producto de una mala calidad de fabricación.</li>
 						<li>Deformación anormal del colchón.</li>
 						<li>Sensación de abultamiento debajo de la tela.</li>
 						<li>Hundimientos mayores a 2 pulgadas.</li>

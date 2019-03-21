@@ -61,7 +61,6 @@ $('.clients-container').slick({
 	  ]
 });
 
-
 /*validator*/
 $(function () {
 

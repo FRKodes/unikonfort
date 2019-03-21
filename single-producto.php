@@ -28,7 +28,9 @@ get_header();
 							<div class="container">
 								<div class="row">
 									<div class="col-xs-12 col-md-6 detail-image-container">
-										<figure><img src="<?php the_field('imagen_detalle'); ?>" alt="<?php the_title() ?>"></figure>
+										<figure class="zoom" onMouseMove="zoom(event)" style="background-image: url(<?php the_field('imagen_detalle'); ?>);">
+											<img src="<?php the_field('imagen_detalle'); ?>" alt="<?php the_title() ?>">
+										</figure>
 									</div>
 									<div class="col-xs-12 col-md-6">
 										<header class="entry-header product-detail">

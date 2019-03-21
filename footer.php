@@ -96,7 +96,7 @@
 	    function initialize() {
 	        var mapOptions = {
 	            mapTypedId: google.maps.MapTypeId.ROADMAP,
-	            zoom: 14,
+	            zoom: 9,
 	            center: latlng,
 	            panControl: true,
 	        };
@@ -127,11 +127,19 @@
 	                infowindow.setContent("<div class='InfoMapa'><h2>" + Titulo + "</h2><p class='Direccion'>" + Descripcion + "</p><p class='Telefono'>" + Telefono + "</p></div>");
 	                infowindow.open(map, this);
 	            });
-
-	            
 	}
 
 	google.maps.event.addDomListener(window, 'load', initialize);
+
+	function zoom(e){
+		console.log('over-');
+		var zoomer = e.currentTarget;
+		e.offsetX ? offsetX = e.offsetX : offsetX = e.touches[0].pageX;
+		e.offsetY ? offsetY = e.offsetY : offsetX = e.touches[0].pageX;
+		x = offsetX/zoomer.offsetWidth*100;
+		y = offsetY/zoomer.offsetHeight*100;
+		zoomer.style.backgroundPosition = x + '% ' + y + '%';
+	}
 </script>
 </body>
 </html>
