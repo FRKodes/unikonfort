@@ -110,6 +110,7 @@ $('.main-menu li').addClass('nav-item');
 $('.main-menu li a').addClass('nav-link');
 $('.menu-menu-top-container').addClass('collapse navbar-collapse').attr('id', 'navbarCollapse');
 
+$('.type-post').addClass('container');
 
 $('.main-banner-container').slick({
 	infinite: true,
