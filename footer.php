@@ -24,7 +24,7 @@
 						<p class="footer-line"><span class="icon-phone"></span> (33) 3606 4362 - (33) 3606 5283</p>
 						<p class="footer-line"><span class="icon-mail"></span> <a class="white" href="mailto:contacto@unikonfort.mx">contacto@unikonfort.mx</a></p>
 						<p class="footer-line"><span class="icon-pin"></span> Av. Camino a Santa Cruz del Valle #113-A Col. Valle de la misericordia, Tlaquepaque Jalisco, México.</p>
-						<p class="footer-line"><span class="icon-watch"></span> Lunes a Viernes 8:00 a 18:00 Hrs.</p>
+						<p class="footer-line"><span class="icon-watch"></span>HORARIO FÁBRICA Lunes a Viernes 8:00 a 18:00 Hrs.</p>
 						<ul class="social-stuff">
 							<li><a target="_blank" href="https://www.facebook.com/colchonesunikonfort/" class="icon-fb"></a></li>
 						</ul>

@@ -35,7 +35,7 @@
 			</div>
 
 			<div class="col-xs-12 col-sm-12 col-md-6 hoteleria-images">
-				<figure><img class="cien mt--60" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/imagen-nosotros-fabrica-de-colchones-guadalajara.jpg'; ?>" alt="imagen nosotros fabrica de colchones guadalajara"></figure>
+				<figure><img class="cien" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/imagen-nosotros-fabrica-de-colchones-guadalajara.jpg'; ?>" alt="imagen nosotros fabrica de colchones guadalajara"></figure>
 			</div>
 
 		</div>

@@ -35,7 +35,7 @@
 			</div>
 
 			<div class="col-xs-12 col-sm-12 col-md-6 hoteleria-images">
-				<figure><img class="cien mt--70" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/linea-hotelera.jpg'; ?>" alt=""></figure>
+				<figure><img class="cien" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/unikonfort-linea-hogar.jpg'; ?>" alt="unikonfort colchones linea para el hogar"></figure>
 			</div>
 
 		</div>

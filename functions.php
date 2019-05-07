@@ -1,5 +1,5 @@
 <?php
-wp_enqueue_style( 'unikonfort-styles', get_stylesheet_directory_uri() . '/unikonfort-styles.css' , array(), '1.1' );
+wp_enqueue_style( 'unikonfort-styles', get_stylesheet_directory_uri() . '/unikonfort-styles.css' , array(), '1.2' );
 wp_enqueue_script( 'unikonfort-scripts', get_stylesheet_directory_uri() . '/all.js', array(), '1.0', true );
 
 add_theme_support( 'post-thumbnails' ); 

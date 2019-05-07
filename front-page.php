@@ -24,7 +24,7 @@ get_header();
 
 			<div class="row">
 				<div class="col-xs-12 col-md-6 linea-block">
-					<div class="imagen-linea"><figure><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/linea-hotelera.jpg'; ?>" alt="Fábrica de colchones para hoteles"></figure></div>
+					<div class="imagen-linea"><figure><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/linea-hotelera-new.jpg'; ?>" alt="Fábrica de colchones para hoteles"></figure></div>
 					<div class="info">
 						<h2 class="title azul-01"><span class="thin">LÍNEA</span> <br><b>HOTELERA</b></h2>
 						<p class="description">
@@ -35,7 +35,7 @@ get_header();
 					</div>
 				</div>
 				<div class="col-xs-12 col-md-6 linea-block">
-					<div class="imagen-linea"><figure><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/linea-residencial.jpg'; ?>" alt="Fábrica de colchones línea residencial. Fábrica de colchones para el hogar"></figure></div>
+					<div class="imagen-linea"><figure><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/linea-hogar.jpg'; ?>" alt="Fábrica de colchones línea residencial. Fábrica de colchones para el hogar"></figure></div>
 					<div class="info">
 						<h2 class="title verde-01"><span class="thin">LÍNEA</span> <br><b>RESIDENCIAL</b></h2>
 						<p class="description">
@@ -60,7 +60,7 @@ get_header();
 
 				<div class="col-xs-12 col-lg-6 soluciones-a-medida">
 					<div class="image">
-						<figure><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/cochones-a-tu-medida-fabrica-de-colchones-en-mexico.jpg'; ?>" alt="cochones a tu medida, fábrica de colchones en méxico"></figure>
+						<figure><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/unikonfort-linea-hotelera.jpg'; ?>" alt="cochones a tu medida, fábrica de colchones en méxico"></figure>
 					</div>
 				</div>
 

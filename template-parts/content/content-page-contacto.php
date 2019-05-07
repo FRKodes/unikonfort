@@ -53,12 +53,10 @@
 
 				<p class="contact-line"><span class="azul-01 icon-phone"></span> (33) 3606-4362 / (33) 3606-5283</p>
 				<p class="contact-line"><span class="azul-01 icon-mail"></span> <a href="mailto:contacto@unikonfort.mx">contacto@unikonfort.mx</a></p>
-				<p class="contact-line"><span class="azul-01 icon-pin"></span> Av. Camino a Santa Cruz del Valle #113-A Col. Valle de la Misericordia Tlaquepaque Jalisco.</p>
-				<p class="contact-line"><span class="azul-01 icon-watch"></span> Lunes a Viernes 8:00 a 18:00 Hrs.</p>
-				<p class="contact-line"><span class="azul-01 icon-pin"></span> Bodega Puerto Vallarta: Av. González Gallo 165 Fracc. Vida Vallarta. C.P. 48318. Tel. (322) 2247540</p>
-				<p class="contact-line"><span class="azul-01 icon-pin"></span> Show Room Guadalajara: Federalismo norte 397 Col. Artesanos. C.P. 44200. Tel. (33) 38261420.</p>
-				<p class="contact-line"><span class="azul-01 icon-pin"></span> Show Room Niños Héroes Guadalajara: Av Niños Héroes 1615 Col. Moderna C.P. 44190 Guadalajara, Jal. Tel. (33) 3810 7974.</p>
-
+				<p class="contact-line"><span class="azul-01 icon-pin"></span> Fábrica Guadalajara Av. Camino a Santa Cruz del Valle #113-A Col. Valle de la Misericordia Tlaquepaque Jalisco. <br>Horario Lunes a Viernes 8:00 a 18:00 Hrs.</p>
+				<p class="contact-line"><span class="azul-01 icon-pin"></span> Bodega Puerto Vallarta: Av. González Gallo 165 Fracc. Vida Vallarta. C.P. 48318. Tel. (322) 2247540 <br>Horario Lunes a Viernes 10:00 a 14:00 y 16:00 a 19:00 Hrs. / Sábado 10:00 a 14:00 Hrs.</p>
+				<p class="contact-line"><span class="azul-01 icon-pin"></span> Show Room Federalismo Guadalajara: Federalismo norte 397 Col. Artesanos. C.P. 44200. Tel. (33) 38261420. <br>Horario Lunes a Viernes 10:30 a 14:30 y 16:00 a 18:30 Hrs. / Sábado 10:30 a 14:30 Hrs.</p>
+				<p class="contact-line"><span class="azul-01 icon-pin"></span> Show Room Niños Héroes Guadalajara: Av Niños Héroes 1615 Col. Moderna C.P. 44190 Guadalajara, Jal. Tel. (33) 3810 7974. <br>Horario Lunes a Viernes 10:00 a 14:00 y 15:00 a 18:00 Hrs. / Sábado 10:00 a 14:00 Hrs.</p>			
 			</div>
 
 		</div>
