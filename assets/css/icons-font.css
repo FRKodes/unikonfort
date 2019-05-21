@@ -38,69 +38,93 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-anti-acaros:before {
+.icon-altura:before {
   content: "\61";
 }
-.icon-bloque-60k:before {
+.icon-anti-acaros:before {
   content: "\62";
 }
-.icon-bonell-ortopedico:before {
+.icon-bloque-60k:before {
   content: "\63";
 }
-.icon-bordes-reforzados:before {
+.icon-bonell-ortopedico:before {
   content: "\64";
 }
-.icon-cero-movimiento:before {
+.icon-bordes-reforzados:before {
   content: "\65";
 }
-.icon-colchon-personalizable:before {
+.icon-cero-movimiento:before {
   content: "\66";
 }
-.icon-extra-soporte-lumbar:before {
+.icon-colchon-personalizable:before {
   content: "\67";
 }
-.icon-fb:before {
+.icon-extra-firme:before {
   content: "\68";
 }
-.icon-ig:before {
+.icon-extra-soporte-lumbar:before {
   content: "\69";
 }
-.icon-mail:before {
+.icon-fb:before {
   content: "\6a";
 }
-.icon-memory-foam:before {
+.icon-firme:before {
   content: "\6b";
 }
-.icon-nano-tratamiento:before {
+.icon-firmeza:before {
   content: "\6c";
 }
-.icon-phone:before {
+.icon-flecha:before {
   content: "\6d";
 }
-.icon-pin:before {
+.icon-ig:before {
   content: "\6e";
 }
-.icon-pocket-spring:before {
+.icon-mail:before {
   content: "\6f";
 }
-.icon-retardante-fuego:before {
+.icon-media:before {
   content: "\70";
 }
-.icon-sistema-encapsulado:before {
+.icon-memory-foam:before {
   content: "\71";
 }
-.icon-sistema-sin-resortes:before {
+.icon-nano-tratamiento:before {
   content: "\72";
 }
-.icon-watch:before {
+.icon-no-vuelta:before {
   content: "\73";
 }
-.icon-flecha:before {
-  content: "\74";
-}
-.icon-volteable:before {
+.icon-phone:before {
   content: "\75";
 }
-.icon-novolteable:before {
+.icon-pin:before {
   content: "\76";
+}
+.icon-pocket-spring:before {
+  content: "\77";
+}
+.icon-retardante-fuego:before {
+  content: "\78";
+}
+.icon-semifirme:before {
+  content: "\79";
+}
+.icon-semisuave:before {
+  content: "\7a";
+}
+.icon-sistema-encapsulado:before {
+  content: "\41";
+}
+.icon-sistema-sin-resortes:before {
+  content: "\42";
+}
+.icon-suave:before {
+  content: "\43";
+}
+.icon-volteable:before {
+  content: "\44";
+}
+.icon-watch:before {
+  content: "\46";
 }

@@ -49,9 +49,6 @@ get_header();
 												<div class="feature-container">
 													<span class="feature-icon icon-<?php echo strtolower($feature); ?>"></span>
 													<?php switch ($feature) {
-														case 'anti-acaros':
-															$feature_description = 'Anti ácaros';
-															break;
 														case 'bloque-60k':
 															$feature_description = 'Bloque 60K';
 															break;
@@ -97,11 +94,23 @@ get_header();
 											<?php } ?>
 										</div>
 									</div>
-									<div class="col-xs-12 col-md-6">
-										<header class="entry-header product-detail">
-											<?php get_template_part( 'template-parts/header/entry', 'header' ); ?>
-										</header>
-
+									<div class="col-xs-12 col-md-6 product-detail-right-col">
+										<h2 class="azul-01">CARACTERÍSTICAS</h2>
+										<div class="firmeza">
+											<span class="icon icon-<?php echo get_field('firmeza') ?>"></span> <p><span class="azul-01">FIRMEZA</span> <?php echo get_field('firmeza') ?></p>
+										</div>
+										<div class="version">
+											<span class="icon icon-<?php echo get_field('version') ?>"></span> <p><span class="azul-01">VERSIÓN</span> <?php echo str_replace('-', ' ', get_field('version')) ?></p>
+										</div>
+										<div class="altura">
+											<span class="icon icon-altura"></span> <p><span class="azul-01">ALTURA</span> <?php echo get_field('altura') ?></p>
+										</div>
+										<div class="personalizable">
+											<span class="icon icon-colchon-personalizable"></span> <p> <span class="azul-02">SISTEMA PERSONALIZABLE</span></p>
+										</div>
+										<div class="anti-acaros">
+											<span class="icon icon-anti-acaros"></span> <p> <span class="azul-02">ANTI ÁCAROS</span></p>
+										</div>
 										<div class="entry-content">
 											<?php the_content(); ?>
 										</div><!-- .entry-content -->
