@@ -23,6 +23,8 @@ gris-01 = #666666
 	text-transform uppercase
 .thin
 	font-weight 300
+span.bigger
+	font-size 1.5em
 .mt-20
 	margin-top 20px
 .mb-20
@@ -45,6 +47,11 @@ gris-01 = #666666
 	width 100%
 	height auto
 	display block
+.btn.btn-primary.azul-02
+	color white
+	text-transform uppercase
+	padding-left 50px
+	padding-right 50px
 h3.mayus.azul-01
 	white-space normal
 .white-space
@@ -268,6 +275,11 @@ h1.entry-title
 	color azul-01
 	font-weight bold
 	letter-spacing 1px
+.hoteleria-title
+	text-align center
+	line-height 0.6em
+	span
+		font-size .5em
 .fabrica-item
 	display flex
 	justify-content space-between
@@ -487,6 +499,21 @@ figure.zoom
 		.icon
 			color azul-02
 			margin-right 10px
+.feature-col-item
+	margin-top 30px
+	.imagen
+		text-align center
+		margin-bottom 20px
+		img
+			width 45%
+			height auto
+			display inline-block
+	.info
+		.title
+			font-size 1.2em
+			margin-bottom 20px
+	&:last-of-type
+		margin-bottom 60px
 @media screen and (min-width: 375px)
 	.slick-arrow
 		top 75px
@@ -626,6 +653,21 @@ figure.zoom
 			.icon
 				color azul-02
 				margin-right 10px
+	.feature-col-item
+		margin-top 50px
+		margin-bottom 80px
+		.imagen
+			img
+				width 55%
+		.info
+			.title
+				font-size 1.3em
+	.hoteleria-title
+		font-size 3.6em
+		line-height 0.5em
+		margin-top 30px
+		span
+			font-size .485em
 @media screen and (min-width: 992px)
 	.inner-top-bar-container
 		margin 0 auto
@@ -727,6 +769,10 @@ figure.zoom
 		width 260%
 		margin-left -80%
 		background-size cover
+	.feature-col-item
+		.imagen
+			img
+				width 50%
 @media screen and (min-width: 1200px)
 	.inner-page-banner
 		height 350px
@@ -796,3 +842,5 @@ figure.zoom
 			.icon
 				color azul-02
 				margin-right 10px
+	.hoteleria-title
+		font-size 5em

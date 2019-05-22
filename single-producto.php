@@ -116,6 +116,7 @@ get_header();
 										</div><!-- .entry-content -->
 
 										<footer class="entry-footer">
+											<a class="btn btn-primary azul-02" href="/contacto">Cotizar</a>
 										</footer><!-- .entry-footer -->
 									</div>
 								</div>
