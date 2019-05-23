@@ -163,7 +163,10 @@ $(function () {
 			    email 					= form.find("input[name='email']").val(),
 				tipo_proyecto			= form.find("select[name='tipo_proyecto']").val(),
 				ubicacion				= form.find("input[name='ubicacion']").val(),
-				medida					= form.find("select[name='medida']").val(),
+				individual				= form.find("input[name='individual']:checked").val(),
+				matrimonial				= form.find("input[name='matrimonial']:checked").val(),
+				queen_size				= form.find("input[name='queen_size']:checked").val(),
+				king_size				= form.find("input[name='king_size']:checked").val(),
 				detalles_proyecto		= form.find("textarea[name='detalles_proyecto']").val(),
 				nombre					= form.find("input[name='nombre']").val(),
 				ciudad					= form.find("input[name='ciudad']").val(),
@@ -171,7 +174,7 @@ $(function () {
 			    action 					= form.attr("action"),
 			    url = action;
 
-			var posting = $.post(url, {email: email, tipo_proyecto: tipo_proyecto, ubicacion: ubicacion, medida: medida, detalles_proyecto: detalles_proyecto, nombre: nombre, ciudad: ciudad, telefono: telefono });
+			var posting = $.post(url, {email: email, tipo_proyecto: tipo_proyecto, ubicacion: ubicacion, individual: individual, matrimonial: matrimonial, queen_size: queen_size, king_size: king_size, detalles_proyecto: detalles_proyecto, nombre: nombre, ciudad: ciudad, telefono: telefono });
 
 			posting.done(function (data) {
 				console.log('email sent bro! \n' + data);

@@ -116,7 +116,7 @@
 
 					<div class="form-group">
 						<select class="form-control" name="peso_pareja" id="peso_pareja">
-							<option value="">¿CUÁL ES TU RANGO DE PESO DE TU PAREJA?</option>
+							<option value="">¿CUÁL ES EL RANGO DE PESO DE TU PAREJA?</option>
 							<option value="30-50">30-50 KG</option>	
 							<option value="50-70">50-70 KG</option>	
 							<option value="70-90">70-90 KG</option>	

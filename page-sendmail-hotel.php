@@ -5,12 +5,19 @@ if ( isset($_POST['email']) && $_POST['email'] != "") {
 
     $tipo_proyecto          = utf8_decode($_POST['tipo_proyecto']);
     $ubicacion              = utf8_decode($_POST['ubicacion']);
-    $medida                 = utf8_decode($_POST['medida']);
+    $individual             = utf8_decode($_POST['individual']);
+    $matrimonial            = utf8_decode($_POST['matrimonial']);
+    $queen_size             = utf8_decode($_POST['queen_size']);
+    $king_size              = utf8_decode($_POST['king_size']);
     $detalles_proyecto      = utf8_decode($_POST['detalles_proyecto']);
     $nombre                 = utf8_decode($_POST['nombre']);
     $ciudad                 = utf8_decode($_POST['ciudad']);
     $telefono               = utf8_decode($_POST['telefono']);
     $email                  = utf8_decode($_POST['email']);
+
+    $medida                 = $individual . " / " . $matrimonial . " / " .  $queen_size . " / " .  $king_size;
+
+    
 
     require_once('./PHPMailer/class.phpmailer.php');
 
@@ -41,7 +48,10 @@ if ( isset($_POST['email']) && $_POST['email'] != "") {
     $mail->AltBody .= " // " . $email;
     $mail->AltBody .= " // " . $tipo_proyecto;
     $mail->AltBody .= " // " . $ubicacion;
-    $mail->AltBody .= " // " . $medida;
+    $mail->AltBody .= " // " . $individual;
+    $mail->AltBody .= " // " . $matrimonial;
+    $mail->AltBody .= " // " . $queen_size;
+    $mail->AltBody .= " // " . $king_size;
     $mail->AltBody .= " // " . $detalles_proyecto;
     
 

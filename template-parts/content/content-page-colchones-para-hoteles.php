@@ -122,9 +122,11 @@
 					<div class="form-group">
 						<select class="form-control" name="tipo_proyecto" id="tipo_proyecto">
 							<option value="">¿TIPO DE PROYECTO?</option>
-							<option value="Chico">Chico</option>
-							<option value="Mediano">Mediano</option>
-							<option value="Grande">Grande</option>
+							<option value="Hotel">Hotel</option>
+							<option value="Motel ">Motel</option>
+							<option value="Hostal ">Hostal</option>
+							<option value="Airbnb ">Airbnb</option>
+							<option value="Otro">Otro</option>
 						</select>
 					</div>
 
@@ -132,14 +134,26 @@
 						<input type="text" name="ubicacion" class="form-control" placeholder="*Ubicación" data-validate="required">
 					</div>
 
-					<div class="form-group">
-						<select class="form-control" name="medida" id="medida">
-							<option value="">¿MEDIDA?</option>
-							<option value="Individual">Individual</option>	
-							<option value="Matrimonial">Matrimonial</option>	
-							<option value="Queen size">Queen size</option>	
-							<option value="King size">King size</option>	
-						</select>
+					<div class="form-group"><p>¿MEDIDA?</p></div>
+
+					<div class="form-group checkbox-line">
+						<input type="checkbox" name="individual" value="Individual">
+						<label for="individual">Individual</label>
+					</div>
+
+					<div class="form-group checkbox-line">
+						<input type="checkbox" name="matrimonial" value="Matrimonial">
+						<label for="matrimonial">Matrimonial</label>
+					</div>
+
+					<div class="form-group checkbox-line">
+						<input type="checkbox" name="queen_size" value="Queen size">
+						<label for="queen_size">Queen size</label>
+					</div>
+
+					<div class="form-group checkbox-line">
+						<input type="checkbox" name="king_size" value="King size">
+						<label for="king_size">King size</label>
 					</div>
 
 					<div class="form-group">
