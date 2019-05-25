@@ -23,6 +23,70 @@ get_header();
 			</div>
 
 			<div class="row">
+				
+				<div class="col-xs-12 col-md-6 col-lg-3 blog-item upper">
+					<div class="inner-blog-container">
+						<div class="image">
+							<a href="/nosotros">
+								<figure>
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/fabrica-de-colchones-los-mejores.jpg" alt="EL CONFORT HECHO EN MÉXICO. Los mejores colchones desde hace casi 40 años">
+								</figure>
+							</a>
+						</div>
+						<div class="info">
+							<p class="title mayus"><a class="azul-01" href="/nosotros">EL CONFORT HECHO EN MÉXICO.</a></p>
+							<p class="italic excerpt-blog">Los mejores colchones desde hace casi 40 años.</p>
+							<p class="text-right"><a href="/nosotros" class="view-catalog italic azul-01">VER MÁS</a></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-md-6 col-lg-3 blog-item upper">
+					<div class="inner-blog-container">
+						<div class="image">
+							<a href="/nosotros">
+								<figure>
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/catalogo-la-linea-mas-versatil.jpg" alt="CATALOGO. La línea más versátil. Contamos con opciones para todos tipo de proyecto y gusto">
+								</figure>
+							</a>
+						</div>
+						<div class="info">
+							<p class="title mayus"><a class="azul-01" href="/catalogo">CATÁLOGO</a></p>
+							<p class="italic excerpt-blog">La línea más versátil. Contamos con opciones para todos tipo de proyecto y gusto.</p>
+							<p class="text-right"><a href="/catalogo" class="view-catalog italic azul-01">VER MÁS</a></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-md-6 col-lg-3 blog-item upper">
+					<div class="inner-blog-container">
+						<div class="image">
+							<a href="/"><figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/hoteleria-crea-experiencias-a-tus-clientes.jpg" alt="Colchones para hoteles. Crea experiencias memorables. Con más de 500 hoteles como clientes conocemos lo que tú y tus huéspedes necesitan."></figure></a>
+						</div>
+						<div class="info">
+							<p class="title mayus"><a class="azul-01" href="/colchones-para-hoteles">HOTELERÍA</a></p>
+							<p class="italic excerpt-blog">Crea experiencias memorables. Con más de 500 hoteles como clientes conocemos lo que tú y tus huéspedes necesitan.</p>
+							<p class="text-right"><a href="/colchones-para-hoteles" class="view-catalog italic azul-01">VER MÁS</a></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-md-6 col-lg-3 blog-item upper">
+					<div class="inner-blog-container">
+						<div class="image">
+							<a href="/"><figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/linea-residencial-confort-y-soporte.jpg" alt="línea residencial. Confort y soporte caracterizan nuestra línea. Contamos con opciones para los gustos y necesidades de toda la familia."></figure></a>
+						</div>
+						<div class="info">
+							<p class="title mayus"><a class="azul-01" href="/hogar">RESIDENCIAL</a></p>
+							<p class="italic excerpt-blog">Confort y soporte caracterizan nuestra línea. Contamos con opciones para los gustos y necesidades de toda la familia.</p>
+							<p class="text-right"><a href="/hogar" class="view-catalog italic azul-01">VER MÁS</a></p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
 				<div class="col-xs-12 col-md-6 linea-block">
 					<div class="imagen-linea"><figure><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/linea-hotelera-new.jpg'; ?>" alt="Fábrica de colchones para hoteles"></figure></div>
 					<div class="info">
@@ -171,8 +235,7 @@ get_header();
 
 						<div class="col-xs-12 col-md-6 col-lg-4 blog-item">
 							<div class="inner-blog-container">
-								<div class="image">
-									<a href="<?php the_permalink($recent['ID']) ?>"><figure><img src="<?php echo get_the_post_thumbnail_url($recent['ID']); ?>" alt="<?php echo $recent['post_title']; ?>"></figure></div></a>
+								<div class="image"><a href="<?php the_permalink($recent['ID']) ?>"><figure><img src="<?php echo get_the_post_thumbnail_url($recent['ID']); ?>" alt="<?php echo $recent['post_title']; ?>"></figure></a></div>
 								<div class="info">
 									<p class="title mayus"><a class="azul-01" href="<?php the_permalink($recent['ID']) ?>"><?php echo $recent["post_title"]; ?></a></p>
 									<p class="italic excerpt-blog"><?php echo substr($recent["post_excerpt"], 0, 100); ?></p>
@@ -190,6 +253,10 @@ get_header();
 				?>
 
 			</div>
+		</div>
+
+		<div class="container">
+			<?php get_template_part( 'template-parts/content/content', 'form-hoteleros' );?>
 		</div>
 
 	</main><!-- #main -->
