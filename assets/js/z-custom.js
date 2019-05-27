@@ -123,13 +123,17 @@ $(function () {
 				solo_acompanado			= form.find("select[name='solo_acompanado']").val(),
 				peso_pareja				= form.find("select[name='peso_pareja']").val(),
 				preferencia_colchon		= form.find("select[name='preferencia_colchon']").val(),
+				individual				= form.find("input[name='individual']:checked").val(),
+				matrimonial				= form.find("input[name='matrimonial']:checked").val(),
+				queen_size				= form.find("input[name='queen_size']:checked").val(),
+				king_size				= form.find("input[name='king_size']:checked").val(),
 				nombre					= form.find("input[name='nombre']").val(),
 				ciudad					= form.find("input[name='ciudad']").val(),
 				telefono				= form.find("input[name='telefono']").val(),
 			    action 					= form.attr("action"),
 			    url = action;
 
-			var posting = $.post(url, {email: email, firmeza: firmeza, peso: peso, solo_acompanado: solo_acompanado, peso_pareja: peso_pareja, preferencia_colchon: preferencia_colchon, nombre: nombre, ciudad: ciudad, telefono: telefono });
+			var posting = $.post(url, {email: email, firmeza: firmeza, peso: peso, solo_acompanado: solo_acompanado, peso_pareja: peso_pareja, preferencia_colchon: preferencia_colchon, individual: individual, matrimonial: matrimonial, queen_size: queen_size, king_size: king_size, nombre: nombre, ciudad: ciudad, telefono: telefono });
 
 			posting.done(function (data) {
 				console.log('email sent bro! \n' + data);
@@ -188,4 +192,12 @@ $(function () {
 	var $validate = $('#contactHotel').validate(formSettings).data('validate');
 });
 
+$('a.asesorate').on('click', function () {
+	
+	console.log('clicked! btn');
 
+	$('html, body').animate({
+	    scrollTop: $("#form-asesor").offset().top
+	}, 500);
+	
+});

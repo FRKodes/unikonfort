@@ -10,6 +10,9 @@
  */
 
 ?>
+
+<?php get_template_part( 'template-parts/content/content', 'btn-asesorate' );?>
+
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	
 	<header class="entry-header">
@@ -73,7 +76,7 @@
 
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer container">
+	<footer class="entry-footer container" id="form-asesor">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 text-center">
 				<h3 class="mayus azul-01">
@@ -132,6 +135,28 @@
 							<option value="Sin colchoneta">Sin colchoneta</option>
 							<option value="Me da igual">Me da igual</option>
 						</select>
+					</div>
+
+					<div class="form-group"><p>¿MEDIDA?</p></div>
+
+					<div class="form-group checkbox-line">
+						<input type="checkbox" name="individual" value="Individual">
+						<label for="individual">Individual</label>
+					</div>
+
+					<div class="form-group checkbox-line">
+						<input type="checkbox" name="matrimonial" value="Matrimonial">
+						<label for="matrimonial">Matrimonial</label>
+					</div>
+
+					<div class="form-group checkbox-line">
+						<input type="checkbox" name="queen_size" value="Queen size">
+						<label for="queen_size">Queen size</label>
+					</div>
+
+					<div class="form-group checkbox-line">
+						<input type="checkbox" name="king_size" value="King size">
+						<label for="king_size">King size</label>
 					</div>
 
 					<div class="form-group">

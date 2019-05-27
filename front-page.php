@@ -12,6 +12,9 @@
 get_header();
 ?>
 
+
+<?php get_template_part( 'template-parts/content/content', 'btn-asesorate' );?>
+
 <section id="primary" class="content-area">
 	<main id="main" class="site-main container">
 
