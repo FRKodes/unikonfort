@@ -27,7 +27,7 @@ get_header();
 
 			<div class="row">
 				
-				<div class="col-xs-12 col-md-6 col-lg-3 blog-item upper">
+				<div class="col-xs-12 col-md-6 blog-item upper">
 					<div class="inner-blog-container">
 						<div class="image">
 							<a href="/nosotros">
@@ -44,7 +44,7 @@ get_header();
 					</div>
 				</div>
 
-				<div class="col-xs-12 col-md-6 col-lg-3 blog-item upper">
+				<div class="col-xs-12 col-md-6 blog-item upper">
 					<div class="inner-blog-container">
 						<div class="image">
 							<a href="/nosotros">
@@ -61,7 +61,7 @@ get_header();
 					</div>
 				</div>
 
-				<div class="col-xs-12 col-md-6 col-lg-3 blog-item upper">
+				<div class="col-xs-12 col-md-6 blog-item upper">
 					<div class="inner-blog-container">
 						<div class="image">
 							<a href="/"><figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/hoteleria-crea-experiencias-a-tus-clientes.jpg" alt="Colchones para hoteles. Crea experiencias memorables. Con más de 500 hoteles como clientes conocemos lo que tú y tus huéspedes necesitan."></figure></a>
@@ -74,7 +74,7 @@ get_header();
 					</div>
 				</div>
 
-				<div class="col-xs-12 col-md-6 col-lg-3 blog-item upper">
+				<div class="col-xs-12 col-md-6 blog-item upper">
 					<div class="inner-blog-container">
 						<div class="image">
 							<a href="/"><figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/linea-residencial-confort-y-soporte.jpg" alt="línea residencial. Confort y soporte caracterizan nuestra línea. Contamos con opciones para los gustos y necesidades de toda la familia."></figure></a>
@@ -89,30 +89,6 @@ get_header();
 
 			</div>
 
-			<div class="row">
-				<div class="col-xs-12 col-md-6 linea-block">
-					<div class="imagen-linea"><figure><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/linea-hotelera-new.jpg'; ?>" alt="Fábrica de colchones para hoteles"></figure></div>
-					<div class="info">
-						<h2 class="title azul-01"><span class="thin">LÍNEA</span> <br><b>HOTELERA</b></h2>
-						<p class="description">
-							Hotel line es la más clásica línea hotelera de Unikonfort, el armado de esta línea se lleva acabo de manera tradicional y permite un terminado compacto que prolonga la vida del colchón. <br> <br>
-							Ideal para hoteles de alto tráfico que quieren ofrecer un descanso reparador y ortopédico a sus huéspedes.
-						</p>
-						<p class="text-right"><a href="/catalogo" class="view-catalog italic azul-01">VER CATÁLOGO</a></p>
-					</div>
-				</div>
-				<div class="col-xs-12 col-md-6 linea-block">
-					<div class="imagen-linea"><figure><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/linea-hogar.jpg'; ?>" alt="Fábrica de colchones línea residencial. Fábrica de colchones para el hogar"></figure></div>
-					<div class="info">
-						<h2 class="title verde-01"><span class="thin">LÍNEA</span> <br><b>RESIDENCIAL</b></h2>
-						<p class="description">
-							Confort Home está inspirada en aquellos hoteles de alto nivel que buscan ofrecer sensaciones y experiencias nuevas a sus huéspedes. Uno de los secretos de Confort Home está en sus acojinamientos principales, fabricados en latex foam de alta resistencia, el cual, por sus propiedades, ofrece una sensación de adaptación, soporte y relajación en todas las áreas del cuerpo. <br><br>
-							La línea confort Home, está diseñada utilizando solo los materiales que por su naturaleza ofrecen una calidad total, utilizando componentes que eviten la transmisión de movimiento y ofrezcan sensaciones especiales.
-						</p>
-						<p class="text-right"><a href="/catalogo" class="view-catalog italic azul-01">VER CATÁLOGO</a></p>
-					</div>
-				</div>
-			</div>
 		</div>
 
 		
