@@ -19,7 +19,7 @@
 	<div class="entry-content container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12">
-				<h3 class="mayus azul-01">
+				<h3 class="mayus azul-01 text-center">
 					<span class="thin">¡Gracias por comunicarte</span> <br>
 					con nosotros!
 				</h3>
@@ -28,8 +28,8 @@
 
 		<div class="row">
 			
-			<div class="col-xs-12 col-sm-12 col-md-6">
-				<form method="post" action="/sendmail" id="contactForm">
+			<div class="col-xs-12 col-sm-12 col-lg-7">
+				<!-- <form method="post" action="/sendmail" id="contactForm">
 					<div class="form-group"><input name="nombre" placeholder="Nombre" type="text" class="form-control" data-validate="required"></div>
 					<div class="form-group"><input name="correo" placeholder="Correo electrónico" type="text" class="form-control" data-validate="required|email"></div>
 					<div class="form-group"><input name="telefono" placeholder="Teléfono" type="text" class="form-control" data-validate="required"></div>
@@ -44,10 +44,188 @@
 					<div class="form-group"><textarea name="mensaje" id="mensaje" cols="30" rows="10" class="form-control" data-validate="required"></textarea></div>
 					<div class="form-group"><input type="submit" value="Enviar" class="btn btn-primary cien"></div>
 					<div class="sent_mail_alert">¡Gracias!<br>Tu mensaje se envió exitosamente, en breve nos pondremos en contacto contigo.</div>
-				</form>
+				</form> -->
+
+				<div class="tabs">
+					<div class="tab-button-outer">
+						<ul id="tab-button">
+							<li><a href="#tab01">QUIERO COTIZAR EL MEJOR CONFORT PARA MI HOTEL</a></li>
+							<li><a href="#tab02">QUIERO EL MEJOR CONFORT PARA MI HOGAR</a></li>
+						</ul>
+					</div>
+
+					<div class="tab-select-outer">
+						<select id="tab-select">
+							<option value="">SELECCIONA UNA OPCIÓN</option>
+							<option value="#tab01">SOY HOTELERO, QUIERO COTIZAR EL MEJOR CONFORT</option>
+							<option value="#tab02">QUIERO EL MEJOR CONFORT PARA MI HOGAR</option>
+						</select>
+					</div>
+
+					<div id="tab01" class="tab-contents">
+						<div class="row">
+							<div class="col-xs-12 col-md-11 ml-auto mr-auto mb-60">
+								<form action="/sendmail-hotel" method="post" id="contactHotel">
+									<div class="form-group">
+										<select class="form-control" name="tipo_proyecto" id="tipo_proyecto">
+											<option value="">¿TIPO DE PROYECTO?</option>
+											<option value="Hotel">Hotel</option>
+											<option value="Motel ">Motel</option>
+											<option value="Hostal ">Hostal</option>
+											<option value="Airbnb ">Airbnb</option>
+											<option value="Otro">Otro</option>
+										</select>
+									</div>
+
+									<div class="form-group">
+										<input type="text" name="ubicacion" class="form-control" placeholder="*Ubicación" data-validate="required">
+									</div>
+
+									<div class="form-group"><p>¿MEDIDA?</p></div>
+
+									<div class="form-group checkbox-line">
+										<input type="checkbox" name="individual" value="Individual">
+										<label for="individual">Individual</label>
+									</div>
+
+									<div class="form-group checkbox-line">
+										<input type="checkbox" name="matrimonial" value="Matrimonial">
+										<label for="matrimonial">Matrimonial</label>
+									</div>
+
+									<div class="form-group checkbox-line">
+										<input type="checkbox" name="queen_size" value="Queen size">
+										<label for="queen_size">Queen size</label>
+									</div>
+
+									<div class="form-group checkbox-line">
+										<input type="checkbox" name="king_size" value="King size">
+										<label for="king_size">King size</label>
+									</div>
+
+									<div class="form-group">
+										<textarea name="detalles_proyecto" class="form-control" id="detalles_proyecto" placeholder="Cuéntanos un poco más de tu proyecto para poder ofrecerte las opciones adecuadas" cols="30" rows="10"></textarea>
+									</div>
+
+									<div class="form-group">
+										<input type="text" name="nombre" class="form-control" placeholder="*Nombre" data-validate="required">
+									</div>
+									<div class="form-group">
+										<input type="text" name="ciudad" class="form-control" placeholder="*Ciudad" data-validate="required">
+									</div>
+									<div class="form-group">
+										<input type="text" name="telefono" class="form-control" placeholder="*Teléfono" data-validate="required">
+									</div>
+									<div class="form-group">
+										<input type="text" name="email" class="form-control" placeholder="*Email" data-validate="required">
+									</div>
+									<div class="form-group">
+										<input type="submit" name="submit" value="ENVIAR" class="btn btn-primary cien">
+									</div>
+									<div class="sent_mail_alert">¡Gracias!<br>Tu mensaje se envió exitosamente, en breve nos pondremos en contacto contigo.</div>
+								</form>
+							</div>
+						</div>
+					</div>
+
+					<div id="tab02" class="tab-contents">
+						<div class="row">
+							<div class="col-xs-12 col-md-116 ml-auto mr-auto">
+								<form action="/sendmail-hogar" method="post" id="contactHogar">
+									<div class="form-group">
+										<select class="form-control" name="firmeza" id="firmeza">
+											<option value="">¿QUE NIVEL DE FIRMEZA PREFIERES?</option>
+											<option value="Suave">Suave</option>
+											<option value="Intermedio">Intermedio</option>
+											<option value="Firme">Firme</option>
+										</select>
+									</div>
+
+									<div class="form-group">
+										<select class="form-control" name="peso" id="peso">
+											<option value="">¿CUÁL ES TU RANGO DE PESO?</option>
+											<option value="30-50">30-50 KG</option>	
+											<option value="50-70">50-70 KG</option>	
+											<option value="70-90">70-90 KG</option>	
+											<option value="90-120">90-120 KG</option>	
+											<option value="+120">+120 KG</option>	
+										</select>
+									</div>
+
+									<div class="form-group">
+										<select class="form-control" name="solo_acompanado" id="solo_acompanado">
+											<option value="">¿DUERMES SÓLO O ACOMPAÑADO?</option>
+											<option value="Solo">Solo</option>	
+											<option value="Acompañado">Acompañado</option>	
+										</select>
+									</div>
+
+									<div class="form-group">
+										<select class="form-control" name="peso_pareja" id="peso_pareja">
+											<option value="">¿CUÁL ES EL RANGO DE PESO DE TU PAREJA?</option>
+											<option value="30-50">30-50 KG</option>	
+											<option value="50-70">50-70 KG</option>	
+											<option value="70-90">70-90 KG</option>	
+											<option value="90-120">90-120 KG</option>	
+											<option value="+120">+120 KG</option>	
+										</select>
+									</div>
+
+									<div class="form-group">
+										<select class="form-control" name="preferencia_colchon" id="preferencia_colchon">
+											<option value="">¿CÓMO PREFIERES TU COLCHÓN?</option>
+											<option value="Con colchoneta">Con colchoneta</option>
+											<option value="Sin colchoneta">Sin colchoneta</option>
+											<option value="Me da igual">Me da igual</option>
+										</select>
+									</div>
+
+									<div class="form-group"><p>¿MEDIDA?</p></div>
+
+									<div class="form-group checkbox-line">
+										<input type="checkbox" name="individual" value="Individual">
+										<label for="individual">Individual</label>
+									</div>
+
+									<div class="form-group checkbox-line">
+										<input type="checkbox" name="matrimonial" value="Matrimonial">
+										<label for="matrimonial">Matrimonial</label>
+									</div>
+
+									<div class="form-group checkbox-line">
+										<input type="checkbox" name="queen_size" value="Queen size">
+										<label for="queen_size">Queen size</label>
+									</div>
+
+									<div class="form-group checkbox-line">
+										<input type="checkbox" name="king_size" value="King size">
+										<label for="king_size">King size</label>
+									</div>
+
+									<div class="form-group">
+										<input type="text" name="nombre" class="form-control" placeholder="*Nombre" data-validate="required">
+									</div>
+									<div class="form-group">
+										<input type="text" name="ciudad" class="form-control" placeholder="*Ciudad" data-validate="required">
+									</div>
+									<div class="form-group">
+										<input type="text" name="telefono" class="form-control" placeholder="*Teléfono" data-validate="required">
+									</div>
+									<div class="form-group">
+										<input type="text" name="email" class="form-control" placeholder="*Email" data-validate="required|email">
+									</div>
+									<div class="form-group">
+										<input type="submit" name="submit" value="ENVIAR" class="btn btn-primary cien">
+									</div>
+									<div class="sent_mail_alert">¡Gracias!<br>Tu mensaje se envió exitosamente, en breve nos pondremos en contacto contigo.</div>
+								</form>
+							</div>
+						</div>
+					</div>  
+				</div>
 			</div>
 
-			<div class="col-xs-12 col-sm-12 col-md-6 contact-info-block">
+			<div class="col-xs-12 col-sm-12 col-lg-5 contact-info-block">
 				
 				<?php the_content(); ?>
 

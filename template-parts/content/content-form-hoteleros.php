@@ -1,12 +1,3 @@
-<div class="row" id="form-asesor">
-	<div class="col-xs-12 col-sm-12 text-center">
-		<h3 class="mayus azul-01">
-			<span class="thin">Recibe asesoría de alguno de </span> <br>
-			<span class="bigger">nuestros expertos</span>
-		</h3>
-	</div>
-</div>
-
 <div class="row">
 	<div class="col-xs-12 col-md-10 col-lg-6 ml-auto mr-auto mb-60">
 		<form action="/sendmail-hotel" method="post" id="contactHotel">

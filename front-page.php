@@ -235,7 +235,42 @@ get_header();
 		</div>
 
 		<div class="container">
-			<?php get_template_part( 'template-parts/content/content', 'form-hoteleros' );?>
+
+			<div class="row" id="form-asesor">
+				<div class="col-xs-12 col-sm-12 text-center">
+					<h3 class="mayus azul-01">
+						<span class="thin">Recibe asesoría de alguno de </span> <br>
+						<span class="bigger">nuestros expertos</span>
+					</h3>
+				</div>
+			</div>
+			
+
+			<div class="tabs">
+				<div class="tab-button-outer">
+					<ul id="tab-button">
+						<li><a href="#tab01">SOY HOTELERO, QUIERO COTIZAR EL MEJOR CONFORT</a></li>
+						<li><a href="#tab02">QUIERO EL MEJOR CONFORT PARA MI HOGAR</a></li>
+					</ul>
+				</div>
+
+				<div class="tab-select-outer">
+					<select id="tab-select">
+						<option value="">SELECCIONA UNA OPCIÓN</option>
+						<option value="#tab01">SOY HOTELERO, QUIERO COTIZAR EL MEJOR CONFORT</option>
+						<option value="#tab02">QUIERO EL MEJOR CONFORT PARA MI HOGAR</option>
+					</select>
+				</div>
+
+				<div id="tab01" class="tab-contents">
+				<?php get_template_part( 'template-parts/content/content', 'form-hoteleros' );?>
+				</div>
+
+				<div id="tab02" class="tab-contents">
+				<?php get_template_part( 'template-parts/content/content', 'form-hogar' );?>
+				</div>  
+			</div>
+
 		</div>
 
 	</main><!-- #main -->
