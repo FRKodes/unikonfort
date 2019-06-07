@@ -234,7 +234,9 @@
 				<p class="contact-line"><span class="azul-01 icon-pin"></span> Fábrica Guadalajara Av. Camino a Santa Cruz del Valle #113-A Col. Valle de la Misericordia Tlaquepaque Jalisco. <br>Horario Lunes a Viernes 8:00 a 18:00 Hrs.</p>
 				<p class="contact-line"><span class="azul-01 icon-pin"></span> Bodega Puerto Vallarta: Av. González Gallo 165 Fracc. Vida Vallarta. C.P. 48318. Tel. (322) 2247540 <br>Horario Lunes a Viernes 10:00 a 14:00 y 16:00 a 19:00 Hrs. / Sábado 10:00 a 14:00 Hrs.</p>
 				<p class="contact-line"><span class="azul-01 icon-pin"></span> Show Room Federalismo Guadalajara: Federalismo norte 397 Col. Artesanos. C.P. 44200. Tel. (33) 38261420. <br>Horario Lunes a Viernes 10:30 a 14:30 y 16:00 a 18:30 Hrs. / Sábado 10:30 a 14:30 Hrs.</p>
-				<p class="contact-line"><span class="azul-01 icon-pin"></span> Show Room Niños Héroes Guadalajara: Av Niños Héroes 1615 Col. Moderna C.P. 44190 Guadalajara, Jal. Tel. (33) 3810 7974. <br>Horario Lunes a Viernes 10:00 a 14:00 y 15:00 a 18:00 Hrs. / Sábado 10:00 a 14:00 Hrs.</p>			
+				<p class="contact-line"><span class="azul-01 icon-pin"></span> Show Room Niños Héroes Guadalajara: Av Niños Héroes 1615 Col. Moderna C.P. 44190 Guadalajara, Jal. Tel. (33) 3810 7974. <br>Horario Lunes a Viernes 10:00 a 14:00 y 15:00 a 18:00 Hrs. / Sábado 10:00 a 14:00 Hrs.</p>
+				<p class="contact-line"><span class="azul-01 icon-pin"></span> Ramón López Velarde (la 74) #575 entre Artes y Europa. Col. San Antonio, Guadalajara. Tel. 333 814 83 24 <br>Horario Lunes a Viernes de 10:00 a 19:00 Hrs. Sábado y Domingo de 10:00 a 15:00 Hrs.</p>
+				
 			</div>
 
 		</div>
