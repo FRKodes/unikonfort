@@ -34,6 +34,16 @@ get_header();
 				the_post();
 				get_template_part( 'template-parts/content/content' );
 			}
+			?>
+			
+			<div class="posts-navigation">
+				<div class="nav-previous alignleft">
+					<?php previous_posts_link( 'Entradas más nuevas' ); ?>
+				</div>
+				<div class="nav-next alignright">
+					<?php next_posts_link( 'Entradas anteriores' ); ?> 
+				</div>
+			</div><?php
 
 		} else {
 

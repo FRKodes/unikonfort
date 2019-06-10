@@ -583,6 +583,20 @@ figure.zoom
 .tab-contents
 	margin-top 20px
 
+.posts-navigation
+	display flex
+	flex-flow column
+	width 100%
+	justify-content center
+	align-items center
+	padding 10px 0
+.nav-previous
+.nav-next
+	margin 10px 0
+	a
+		color azul-01		
+.nav-next.alignright span
+	transform rotate(90deg) !important
 @media screen and (min-width: 375px)
 	.slick-arrow
 		top 75px
@@ -756,7 +770,12 @@ figure.zoom
 		position relative
 		top -1px
 		margin-top 0
-		
+	.posts-navigation
+		flex-flow row
+		justify-content space-between
+	.nav-previous
+	.nav-next
+		margin 10px 0 40px 0
 @media screen and (min-width: 992px)
 	.floating-button
 		top 220px
