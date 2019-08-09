@@ -201,7 +201,7 @@ get_header();
 					'meta_key' => '',
 					'meta_value' =>'',
 					'post_type' => 'post',
-					'post_status' => 'publish',
+					'post_status' => array('publish'),
 					'suppress_filters' => true
 				);
 

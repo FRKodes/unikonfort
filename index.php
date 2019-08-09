@@ -41,7 +41,7 @@ get_header();
 					<?php previous_posts_link( 'Entradas más nuevas' ); ?>
 				</div>
 				<div class="nav-next alignright">
-					<?php next_posts_link( 'Entradas anteriores' ); ?> 
+					<?php next_posts_link( 'Entradas anteriores' ); ?>
 				</div>
 			</div><?php
 
