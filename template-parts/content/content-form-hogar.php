@@ -13,11 +13,11 @@
 			<div class="form-group">
 				<select class="form-control" name="peso" id="peso">
 					<option value="">¿CUÁL ES TU RANGO DE PESO?</option>
-					<option value="30-50">30-50 KG</option>	
-					<option value="50-70">50-70 KG</option>	
-					<option value="70-90">70-90 KG</option>	
-					<option value="90-120">90-120 KG</option>	
-					<option value="+120">+120 KG</option>	
+					<option value="Menor a 50 KG">Menor a 50 KG</option>	
+					<option value="Entre 50 y 80 KG">Entre 50 y 80 KG</option>	
+					<option value="Entre 80 y 100 KG">Entre 80 y 100 KG</option>	
+					<option value="Entre 100 y 120 KG">Entre 100 y 120 KG</option>	
+					<option value="+ 120 KG">+ 120 KG</option>	
 				</select>
 			</div>
 
@@ -32,11 +32,11 @@
 			<div class="form-group">
 				<select class="form-control" name="peso_pareja" id="peso_pareja">
 					<option value="">¿CUÁL ES EL RANGO DE PESO DE TU PAREJA?</option>
-					<option value="30-50">30-50 KG</option>	
-					<option value="50-70">50-70 KG</option>	
-					<option value="70-90">70-90 KG</option>	
-					<option value="90-120">90-120 KG</option>	
-					<option value="+120">+120 KG</option>	
+					<option value="Menor a 50 KG">Menor a 50 KG</option>
+					<option value="Entre 50 y 80 KG">Entre 50 y 80 KG</option>
+					<option value="Entre 80 y 100 KG">Entre 80 y 100 KG</option>
+					<option value="Entre 100 y 120 KG">Entre 100 y 120 KG</option>
+					<option value="+ 120 KG">+ 120 KG</option>
 				</select>
 			</div>
 

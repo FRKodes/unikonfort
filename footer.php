@@ -113,10 +113,11 @@
 	        
 	        AgregaMarkers(20.5798778, -103.362714, "Matríz", "Av. Camino a Santa Cruz del Valle #113-A Col. Valle de la Misericordia Tlaquepaque Jalisco.","(33) 3606 4362 - (33) 3606 5283");
 	        AgregaMarkers(20.645664886207094, -105.21550078498697, "Bodega Puerto Vallarta", "Av. González Gallo 165 Fracc.Vida Vallarta. C.p. 48318 Puerto Vallarta, Jalisco.", "(322) 224 7540");
-	        AgregaMarkers(20.68191048618725, -103.3564949849864, "Show Room Guadalajara", "Federalismo norte 397 Col.Artesanos. C.p. 44200 Guadalajara, Jalisco.", "(33) 3826 1420");
-	        AgregaMarkers(20.666600, -103.361391, "Show Room Niños Héroes Guadalajara", "Av Niños Héroes 1615 Col. Moderna C.P. 44190 Guadalajara, Jal.", "(33) 3810 7974");
-	        AgregaMarkers(20.654630, -103.309397, "Show Room Tlaquepaque", "Ramón López Velarde (la 74) #575 entre Artes y Europa. Col. San Antonio, Guadalajara.", "333 814 83 24");
-	        
+	        AgregaMarkers(20.68191048618725, -103.3564949849864, "Showroom Guadalajara", "Federalismo norte 397 Col.Artesanos. C.p. 44200 Guadalajara, Jalisco.", "(33) 3826 1420");
+	        AgregaMarkers(20.666600, -103.361391, "Showroom Niños Héroes Guadalajara", "Av Niños Héroes 1615 Col. Moderna C.P. 44190 Guadalajara, Jal.", "(33) 3810 7974");
+	        AgregaMarkers(20.654630, -103.309397, "Showroom Tlaquepaque", "Ramón López Velarde (la 74) #575 entre Artes y Europa. Col. San Antonio, Guadalajara.", "333 814 83 24");
+	        AgregaMarkers(20.817771, -102.758560, "Showroom Tlaquepaque", "Ramón López Velarde (la 74) #575 entre Artes y Europa. Col. San Antonio, Guadalajara.", "333 814 83 24");
+	        AgregaMarkers(20.817771, -102.758560, "Showroom Tepatitlán", "Porfirio Díaz 160 Col. Centro. Tepatitlán, Jalisco.", "33 3903 7361");
 	    }
 	    
 	    function AgregaMarkers(Latitud, Longitud, Titulo, Descripcion, Telefono) {
