@@ -144,11 +144,11 @@
 									<div class="form-group">
 										<select class="form-control" name="peso" id="peso">
 											<option value="">¿CUÁL ES TU RANGO DE PESO?</option>
-											<option value="30-50">30-50 KG</option>	
-											<option value="50-70">50-70 KG</option>	
-											<option value="70-90">70-90 KG</option>	
-											<option value="90-120">90-120 KG</option>	
-											<option value="+120">+120 KG</option>	
+											<option value="Menor a 50 KG">Menor a 50 KG</option>
+											<option value="Entre 50 y 80 KG">Entre 50 y 80 KG</option>
+											<option value="Entre 80 y 100 KG">Entre 80 y 100 KG</option>
+											<option value="Entre 100 y 120 KG">Entre 100 y 120 KG</option>
+											<option value="+ 120 KG">+ 120 KG</option>
 										</select>
 									</div>
 
@@ -163,11 +163,11 @@
 									<div class="form-group">
 										<select class="form-control" name="peso_pareja" id="peso_pareja">
 											<option value="">¿CUÁL ES EL RANGO DE PESO DE TU PAREJA?</option>
-											<option value="30-50">30-50 KG</option>	
-											<option value="50-70">50-70 KG</option>	
-											<option value="70-90">70-90 KG</option>	
-											<option value="90-120">90-120 KG</option>	
-											<option value="+120">+120 KG</option>	
+											<option value="Menor a 50 KG">Menor a 50 KG</option>
+											<option value="Entre 50 y 80 KG">Entre 50 y 80 KG</option>
+											<option value="Entre 80 y 100 KG">Entre 80 y 100 KG</option>
+											<option value="Entre 100 y 120 KG">Entre 100 y 120 KG</option>
+											<option value="+ 120 KG">+ 120 KG</option>
 										</select>
 									</div>
 
@@ -236,7 +236,7 @@
 				<p class="contact-line"><span class="azul-01 icon-pin"></span> Showroom Federalismo Guadalajara: Federalismo norte 397 Col. Artesanos. C.P. 44200. Tel. (33) 38261420. <br>Horario Lunes a Viernes 10:30 a 14:30 y 16:00 a 18:30 Hrs. / Sábado 10:30 a 14:30 Hrs.</p>
 				<p class="contact-line"><span class="azul-01 icon-pin"></span> Showroom Niños Héroes Guadalajara: Av Niños Héroes 1615 Col. Moderna C.P. 44190 Guadalajara, Jal. Tel. (33) 3810 7974. <br>Horario Lunes a Viernes 10:00 a 14:00 y 15:00 a 18:00 Hrs. / Sábado 10:00 a 14:00 Hrs.</p>
 				<p class="contact-line"><span class="azul-01 icon-pin"></span> Showroom Tlaquepaque: Ramón López Velarde (la 74) #575 entre Artes y Europa. Col. San Antonio, Guadalajara. Tel. 333 814 83 24 <br>Horario Lunes a Viernes de 10:00 a 19:00 Hrs. Sábado y Domingo de 10:00 a 15:00 Hrs.</p>
-				<p class="contact-line"><span class="azul-01 icon-pin"></span> Showroom Tepatitlán: Porfirio Díaz 160 Col. Centro. Tepatitlán, Jalisco. Tel. 3339037361<br>Horario Lunes a Sábado de 10:00 a 14:00 Hrs. y de 16:00 a 20:00 Hrs. Domingo de 10:00 a 12:00 Hrs. DESCANSAMOS LOS JUEVES.</p>				
+				<p class="contact-line"><span class="azul-01 icon-pin"></span> Showroom Tepatitlán: Porfirio Díaz 160 Col. Centro. Tepatitlán, Jalisco. Tel. 3339037361<br>Horario Lunes a Sábado de 10:00 a 14:00 Hrs. y de 16:00 a 20:00 Hrs. Domingo de 10:00 a 12:00 Hrs. DESCANSAMOS LOS JUEVES.</p>
 			</div>
 
 		</div>
