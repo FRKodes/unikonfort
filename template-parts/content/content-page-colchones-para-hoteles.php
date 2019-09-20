@@ -108,7 +108,7 @@
 
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
+	<footer class="entry-footer page-hoteleros" id="form-asesor">
 		<?php get_template_part( 'template-parts/content/content', 'form-hoteleros' );?>
 	</footer><!-- .entry-footer -->
 

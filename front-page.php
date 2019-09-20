@@ -246,7 +246,7 @@ get_header();
 			</div>
 			
 
-			<div class="tabs">
+			<div class="tabs" id="homepage-ads">
 				<div class="tab-button-outer">
 					<ul id="tab-button">
 						<li><a href="#tab01">SOY HOTELERO, QUIERO COTIZAR EL MEJOR CONFORT</a></li>

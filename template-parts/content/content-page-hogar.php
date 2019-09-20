@@ -76,7 +76,7 @@
 
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer container" id="form-asesor">
+	<footer class="entry-footer container page-hogar" id="form-asesor">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 text-center">
 				<h3 class="mayus azul-01">

@@ -26,7 +26,7 @@
 			</div>
 		</div>
 
-		<div class="row">
+		<div class="row" id="contact-page">
 			
 			<div class="col-xs-12 col-sm-12 col-lg-7">
 				<!-- <form method="post" action="/sendmail" id="contactForm">
