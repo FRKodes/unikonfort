@@ -25,11 +25,11 @@ if (isset($_POST['email']) && $_POST['email'] != "") {
     $mail->From = $email;
     $mail->FromName = $nombre;
     
-    $mail->addAddress('frkalderon@gmail.com', 'Mail Unikonfort');
+    $mail->addAddress('tony@blueterrier.mx', 'Mail Unikonfort');
     $mail->addReplyTo("contacto@unikonfort.mx", "Reply");
     // $mail->addBCC("frkalderon@gmail.com");
     $mail->isHTML(true);
-    $mail->Subject = "Contacto Unikonfort Hogar";
+    $mail->Subject = "Contacto Unikonfort HOGAR";
     $mail->Body = "<p>". $nombre ." escribi&oacute;: </p>";
     $mail->Body.= "<p><b>Email: </b>". $email ."</p>";
     $mail->Body.= "<p><b>Telefono: </b>". $telefono ."</p>";

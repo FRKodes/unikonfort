@@ -16,7 +16,7 @@ if (isset($_POST['correo'] && $_POST['correo'] != "") {
     $mail->From = $correo;
     $mail->FromName = $nombre;
     
-    $mail->addAddress('frkalderon@gmail.com', 'Mail Unikonfort');
+    $mail->addAddress('tony@blueterrier.mx', 'Mail Unikonfort');
     $mail->addReplyTo("contacto@unikonfort.mx", "Reply");
     // $mail->addBCC("frkalderon@gmail.com");
     $mail->isHTML(true);
