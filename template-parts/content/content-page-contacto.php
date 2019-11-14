@@ -237,6 +237,8 @@
 				<p class="contact-line"><span class="azul-01 icon-pin"></span> Showroom Niños Héroes Guadalajara: Av Niños Héroes 1615 Col. Moderna C.P. 44190 Guadalajara, Jal. Tel. (33) 3810 7974. <br>Horario Lunes a Viernes 10:00 a 14:00 y 15:00 a 18:00 Hrs. / Sábado 10:00 a 14:00 Hrs.</p>
 				<p class="contact-line"><span class="azul-01 icon-pin"></span> Showroom Tlaquepaque: Ramón López Velarde (la 74) #575 entre Artes y Europa. Col. San Antonio, Guadalajara. Tel. 333 814 83 24 <br>Horario Lunes a Viernes de 10:00 a 19:00 Hrs. Sábado y Domingo de 10:00 a 15:00 Hrs.</p>
 				<p class="contact-line"><span class="azul-01 icon-pin"></span> Showroom Tepatitlán: Porfirio Díaz 160 Col. Centro. Tepatitlán, Jalisco. Tel. 3339037361<br>Horario Lunes a Sábado de 10:00 a 14:00 Hrs. y de 16:00 a 20:00 Hrs. Domingo de 10:00 a 12:00 Hrs. DESCANSAMOS LOS JUEVES.</p>
+				<p class="contact-line"><span class="azul-01 icon-pin"></span> Showroom Lagos de Moreno: Boulevard Orozco y Jimenez 376 col. Lomas del Valle. Tel. 3321549753<br>Horario Lunes a Viernes de 10:00 a 19:00 Hrs. Sábado y Domingo de 10:00 a 15:00 Hrs.</p>
+				
 			</div>
 
 		</div>

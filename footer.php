@@ -102,7 +102,7 @@
 	    function initialize() {
 	        var mapOptions = {
 	            mapTypedId: google.maps.MapTypeId.ROADMAP,
-	            zoom: 9,
+	            zoom: 8,
 	            center: latlng,
 	            panControl: true,
 	        };
@@ -118,6 +118,8 @@
 	        AgregaMarkers(20.654630, -103.309397, "Showroom Tlaquepaque", "Ramón López Velarde (la 74) #575 entre Artes y Europa. Col. San Antonio, Guadalajara.", "333 814 83 24");
 	        AgregaMarkers(20.817771, -102.758560, "Showroom Tlaquepaque", "Ramón López Velarde (la 74) #575 entre Artes y Europa. Col. San Antonio, Guadalajara.", "333 814 83 24");
 	        AgregaMarkers(20.817771, -102.758560, "Showroom Tepatitlán", "Porfirio Díaz 160 Col. Centro. Tepatitlán, Jalisco.", "33 3903 7361");
+	        AgregaMarkers(21.356311, -101.940500, "Showroom Lagos de Moreno", "Boulevard Orozco y Jimenez 376 col. Lomas del Valle.", "332 154 9753");
+	        
 	    }
 	    
 	    function AgregaMarkers(Latitud, Longitud, Titulo, Descripcion, Telefono) {
