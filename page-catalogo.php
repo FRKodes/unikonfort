@@ -27,9 +27,70 @@ get_header();
 					<div class="entry-content container">
 						<div class="row">
 							
+							<div class="col-xs-12 col-md-4 mb-40">
+								<figure>
+									<a href="<?php echo get_stylesheet_directory_uri() . '/assets/pdf/catalogo_linea_boutique_and_home.pdf';?>" target="_blank" title="Ver catálogo de esta línea">
+										<img style="width: 100%; height: auto; display: block;" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/catalogo_linea_boutique_and_home.jpg'; ?>" alt="Portada catalogo línea boutique & home">
+									</a>
+								</figure>
+								<p>
+									<a href="<?php echo get_stylesheet_directory_uri() . '/assets/pdf/catalogo_linea_boutique_and_home.pdf';?>" target="_blank" title="Ver catálogo de esta línea">
+										Descargar Catálogo línea Boutique & Home
+									</a>
+								</p>
+							</div>
+							<div class="col-xs-12 col-md-4 mb-40">
+								<figure>
+									<a href="<?php echo get_stylesheet_directory_uri() . '/assets/pdf/catalogo_linea_elemental.pdf';?>" target="_blank" title="Ver catálogo de esta línea">
+										<img style="width: 100%; height: auto; display: block;" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/catalogo_linea_elemental.jpg'; ?>" alt="Portada catalogo línea elemental">
+									</a>
+								</figure>
+								<p>
+									<a href="<?php echo get_stylesheet_directory_uri() . '/assets/pdf/catalogo_linea_elemental.pdf';?>" target="_blank" title="Ver catálogo de esta línea">
+										Descargar Catálogo línea Elemental
+									</a>
+								</p>
+							</div>
+							<div class="col-xs-12 col-md-4 mb-40">
+								<figure>
+									<a href="<?php echo get_stylesheet_directory_uri() . '/assets/pdf/catalogo_linea_hotel_line.pdf';?>" target="_blank" title="Ver catálogo de esta línea">
+										<img style="width: 100%; height: auto; display: block;" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/catalogo_linea_hotel_line.jpg'; ?>" alt="Portada catalogo línea hotel line">
+									</a>
+								</figure>
+								<p>
+									<a href="<?php echo get_stylesheet_directory_uri() . '/assets/pdf/catalogo_linea_boutique_and_home.pdf';?>" target="_blank" title="Ver catálogo de esta línea">
+										Descargar Catálogo Hotel Line
+									</a>
+								</p>
+							</div>
+							<div class="col-xs-12 col-md-4 mb-40">
+								<figure>
+									<a href="<?php echo get_stylesheet_directory_uri() . '/assets/pdf/catalogo_linea_motel_estandar.pdf';?>" target="_blank" title="Ver catálogo de esta línea">
+										<img style="width: 100%; height: auto; display: block;" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/catalogo_linea_motel_estandar.jpg'; ?>" alt="Portada catalogo línea motel_estandar">
+									</a>
+								</figure>
+								<p>
+									<a href="<?php echo get_stylesheet_directory_uri() . '/assets/pdf/catalogo_linea_motel_estandar.pdf';?>" target="_blank" title="Ver catálogo de esta línea">
+										Descargar Catálogo línea Motel Estándar
+									</a>
+								</p>
+							</div>
+							<div class="col-xs-12 col-md-4 mb-40">
+								<figure>
+									<a href="<?php echo get_stylesheet_directory_uri() . '/assets/pdf/catalogo_top_hotel_line.pdf';?>" target="_blank" title="Ver catálogo de esta línea">
+										<img style="width: 100%; height: auto; display: block;" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/catalogo_linea_top_hotel.jpg'; ?>" alt="Portada catalogo línea top hotel">
+									</a>
+								</figure>
+								<p>
+									<a href="<?php echo get_stylesheet_directory_uri() . '/assets/pdf/catalogo_top_hotel_line.pdf';?>" target="_blank" title="Ver catálogo de esta línea">
+										Descargar Catálogo Top Hotel Line
+									</a>
+								</p>
+							</div>
+
 							<div class="col-xs-12 col-md-12 mb-40"> <?php the_content(); ?> </div>
 
-							<div class="col-xs-12 col-md-6 catalog-cat-item">
+							<div class="col-xs-12 col-md-6 catalog-cat-item" style="display: none">
 								<div class="inner-container bel-air">
 									<div class="image">
 										<figure><img class="cien" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/unikonfort-catalogo-linea-bel-air.jpg'; ?>" alt="linea unikonfort bel-air"></figure>
@@ -48,7 +109,7 @@ get_header();
 								</div>
 							</div>
 
-							<div class="col-xs-12 col-md-6 catalog-cat-item">
+							<div class="col-xs-12 col-md-6 catalog-cat-item" style="display: none">
 								<div class="inner-container hotel-line">
 									<div class="image">
 										<figure><img class="cien" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/unikonfort-catalogo-linea-hotel-line.jpg'; ?>" alt="linea unikonfort hotel line"></figure>
@@ -67,7 +128,7 @@ get_header();
 								</div>
 							</div>
 
-							<div class="col-xs-12 col-md-6 catalog-cat-item">
+							<div class="col-xs-12 col-md-6 catalog-cat-item" style="display: none">
 								<div class="inner-container confort-home">
 									<div class="image">
 										<figure><img class="cien" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/unikonfort-catalogo-linea-confort-home.jpg'; ?>" alt="linea unikonfort confort home"></figure>
@@ -86,7 +147,7 @@ get_header();
 								</div>
 							</div>
 
-							<div class="col-xs-12 col-md-6 catalog-cat-item">
+							<div class="col-xs-12 col-md-6 catalog-cat-item" style="display: none">
 								<div class="inner-container top-hotel">
 									<div class="image">
 										<figure><img class="cien" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/unikonfort-catalogo-linea-top-hotel.jpg'; ?>" alt="linea unikonfort top hotel"></figure>
