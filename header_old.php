@@ -14,49 +14,7 @@
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" /><?php 
-	$page_description = "";
-	$page = is_page();
-	switch ($page) {
-		case is_page('home'):
-			$page_description = "En Unikonfort fabricamos los mejores colchones desde hace 40 años. Tenemos la más amplia gama de colchones para hotel y hogar.";
-			break;
-		
-		case is_page('catalogo'):
-			$page_description = "Fábrica de colchones. Fabricamos cualquier tipo de colchón, desde colchones convencionales, hasta colchones a prueba de fuego.";
-			break;
-		
-		case is_page('fabrica'):
-			$page_description = "La línea de colchones más completa, contamos con colchones ortopédicos, colchones de memory foam, colchones con resortes, colchones sin resortes.";
-			break;
-		
-		case is_page('colchones-para-hoteles'):
-			$page_description = "Nuestra línea de colchones esta diseñada para hotelería, contamos con una amplia gama de colchones para todo tipo de proyecto y necesidad. ";
-			break;
-		
-		case is_page('hogar'):
-			$page_description = "La línea de colchones más completa, contamos con colchones ortopédicos y colchones de memory foam. Contactanos para asesoría personalizada";
-			break;
-		
-		case is_page('nosotros'):
-			$page_description = "Conocer nuestra línea de colchones. Colchones para hotel y hogar. Envíos a todo el país. Unikonfort fábrica de colchones.";
-			break;
-		
-		case is_page('blog'):
-			$page_description = "Conoce aspectos que te pueden ayudar a mejorar la calidad de tu descanso con nuestro blog. Contáctanos si requieres asesoría personalizada.";
-			break;
-		
-		case is_page('contacto'):
-			$page_description = "Conocer nuestra línea de colchones. Colchones para hotel y hogar. Envíos a todo el país. Unikonfort fábrica de colchones.";
-			break;
-		
-		default:
-			$page_description = "En Unikonfort fabricamos los mejores colchones desde hace 40 años. Tenemos la más amplia gama de colchones para hotel y hogar.";
-			break;
-	}
-
-	?>
-	<meta name="description" content="<?php echo $page_description; ?>" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="profile" href="https://gmpg.org/xfn/11" />
 	<?php wp_head(); ?>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700" rel="stylesheet">
@@ -89,24 +47,7 @@
 	  gtag('js', new Date());
 
 	  gtag('config', 'UA-84802922-19');
-	</script>
-	<!-- Facebook Pixel Code -->
-	<script>
-	  !function(f,b,e,v,n,t,s)
-	  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-	  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-	  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-	  n.queue=[];t=b.createElement(e);t.async=!0;
-	  t.src=v;s=b.getElementsByTagName(e)[0];
-	  s.parentNode.insertBefore(t,s)}(window, document,'script',
-	  'https://connect.facebook.net/en_US/fbevents.js');
-	  fbq('init', '710545476014710');
-	  fbq('track', 'PageView');
-	</script>
-	<noscript><img height="1" width="1" style="display:none"
-	  src="https://www.facebook.com/tr?id=710545476014710&ev=PageView&noscript=1"
-	/></noscript>
-	<!-- End Facebook Pixel Code -->
+	</script>	
 </head>
 
 <body <?php body_class(); ?>>
