@@ -107,6 +107,7 @@
 	  src="https://www.facebook.com/tr?id=710545476014710&ev=PageView&noscript=1"
 	/></noscript>
 	<!-- End Facebook Pixel Code -->
+	<script src="https://www.google.com/recaptcha/api.js?render=6Lc3qrUZAAAAAFJYeR7jjv1hTkvUQX99ydXjPGqt"></script>
 </head>
 
 <body <?php body_class(); ?>>
