@@ -99,12 +99,12 @@
 	<script>
 		    var map;
 		    var infowindow;
-		    var latlng = new google.maps.LatLng(20.674908, -103.354728);
+		    var latlng = new google.maps.LatLng(23.650067, -100.648541);
 
 		    function initialize() {
 		        var mapOptions = {
 		            mapTypedId: google.maps.MapTypeId.ROADMAP,
-		            zoom: 8,
+		            zoom: 6,
 		            center: latlng,
 		            panControl: true,
 		        };
@@ -117,10 +117,10 @@
 		        AgregaMarkers(20.645664886207094, -105.21550078498697, "Bodega Puerto Vallarta", "Av. González Gallo 165 Fracc.Vida Vallarta. C.p. 48318 Puerto Vallarta, Jalisco.", "(322) 224 7540");
 		        AgregaMarkers(20.68191048618725, -103.3564949849864, "Showroom Guadalajara", "Federalismo norte 397 Col.Artesanos. C.p. 44200 Guadalajara, Jalisco.", "(33) 3826 1420");
 		        AgregaMarkers(20.666600, -103.361391, "Showroom Niños Héroes Guadalajara", "Av Niños Héroes 1615 Col. Moderna C.P. 44190 Guadalajara, Jal.", "(33) 3810 7974");
-		        AgregaMarkers(20.654630, -103.309397, "Showroom Tlaquepaque", "Ramón López Velarde (la 74) #575 entre Artes y Europa. Col. San Antonio, Guadalajara.", "333 814 83 24");
 		        AgregaMarkers(20.817771, -102.758560, "Showroom Tlaquepaque", "Ramón López Velarde (la 74) #575 entre Artes y Europa. Col. San Antonio, Guadalajara.", "333 814 83 24");
 		        AgregaMarkers(20.817771, -102.758560, "Showroom Tepatitlán", "Porfirio Díaz 160 Col. Centro. Tepatitlán, Jalisco.", "33 3903 7361");
-		        AgregaMarkers(21.356311, -101.940500, "Showroom Lagos de Moreno", "Boulevard Orozco y Jimenez 376 col. Lomas del Valle.", "332 154 9753");
+		        AgregaMarkers(21.079582, -86.843694, "Showroom Cancún", "Showroom Cancún: Av. Bonfil km 11.5 local 7 Cancún, Quintana Roo.", "998 233 2632");
+		        AgregaMarkers(25.708806, -100.502123, "Showroom Monterrey", "Del Textil # 108<br>Regio Parque Industrial Santa Catarina.<br>Santa Catarina, N.L.", "(81) 80593323, 24 y 25");
 		        
 		    }
 		    
@@ -130,7 +130,6 @@
 		        //icon    : "http://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
 		            position: new google.maps.LatLng(Latitud, Longitud),
 		                title: "",
-		                //icon: 'http://buscarcasa.mx/Images/PinMapRojo.png',
 		                map: map
 		            });
 		            //marker.setMap(map);

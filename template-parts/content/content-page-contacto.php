@@ -233,11 +233,11 @@
 				<p class="contact-line"><span class="azul-01 icon-mail"></span> <a href="mailto:contacto@unikonfort.mx">contacto@unikonfort.mx</a></p>
 				<p class="contact-line"><span class="azul-01 icon-pin"></span> Fábrica Guadalajara Av. Camino a Santa Cruz del Valle #113-A Col. Valle de la Misericordia Tlaquepaque Jalisco. <br>Horario Lunes a Viernes 8:00 a 18:00 Hrs.</p>
 				<p class="contact-line"><span class="azul-01 icon-pin"></span> Bodega Puerto Vallarta: Av. González Gallo 165 Fracc. Vida Vallarta. C.P. 48318. Tel. (322) 2247540 <br>Horario Lunes a Viernes 10:00 a 14:00 y 16:00 a 19:00 Hrs. / Sábado 10:00 a 14:00 Hrs.</p>
-				<p class="contact-line"><span class="azul-01 icon-pin"></span> Showroom Federalismo Guadalajara: Federalismo norte 397 Col. Artesanos. C.P. 44200. Tel. (33) 38261420. <br>Horario Lunes a Viernes 10:30 a 14:30 y 16:00 a 18:30 Hrs. / Sábado 10:30 a 14:30 Hrs.</p>
-				<p class="contact-line"><span class="azul-01 icon-pin"></span> Showroom Niños Héroes Guadalajara: Av Niños Héroes 1615 Col. Moderna C.P. 44190 Guadalajara, Jal. Tel. (33) 3810 7974. <br>Horario Lunes a Viernes 10:00 a 14:00 y 15:00 a 18:00 Hrs. / Sábado 10:00 a 14:00 Hrs.</p>
-				<p class="contact-line"><span class="azul-01 icon-pin"></span> Showroom Tlaquepaque: Ramón López Velarde (la 74) #575 entre Artes y Europa. Col. San Antonio, Guadalajara. Tel. 333 814 83 24 <br>Horario Lunes a Viernes de 10:00 a 19:00 Hrs. Sábado y Domingo de 10:00 a 15:00 Hrs.</p>
-				<p class="contact-line"><span class="azul-01 icon-pin"></span> Showroom Tepatitlán: Porfirio Díaz 160 Col. Centro. Tepatitlán, Jalisco. Tel. 3339037361<br>Horario Lunes a Sábado de 10:00 a 14:00 Hrs. y de 16:00 a 20:00 Hrs. Domingo de 10:00 a 12:00 Hrs. DESCANSAMOS LOS JUEVES.</p>
-				<p class="contact-line"><span class="azul-01 icon-pin"></span> Showroom Lagos de Moreno: Boulevard Orozco y Jimenez 376 col. Lomas del Valle. Tel. 3321549753<br>Horario Lunes a Viernes de 10:00 a 19:00 Hrs. Sábado y Domingo de 10:00 a 15:00 Hrs.</p>
+				<p class="contact-line"><span class="azul-01 icon-pin"></span> Showroom Federalismo Guadalajara: Federalismo norte 397 Col. Artesanos. C.P. 44200. Tel. (33) 38261420. <br>Horario Lunes a Viernes 10:30 a 14:30 y 16:00 a 19:30 Hrs. / Sábado 10:30 a 14:30 Hrs.</p>
+				<p class="contact-line"><span class="azul-01 icon-pin"></span> Showroom Niños Héroes Guadalajara: Av Niños Héroes 1621 Col. Moderna C.P. 44190 Guadalajara, Jal. Tel. (33) 3810 7974. <br>Horario Lunes a Viernes 10:00 a 14:00 y 15:00 a 18:00 Hrs. / Sábado 10:00 a 14:00 Hrs.</p>
+				<p class="contact-line"><span class="azul-01 icon-pin"></span> Showroom Tepatitlán: Porfirio Díaz 120-C Col. Centro. Tepatitlán, Jalisco. Tel. 3339037361<br>Horario Lunes a Sábado de 10:00 a 14:00 Hrs. y de 16:00 a 20:00 Hrs. Domingo de 10:00 a 12:00 Hrs. DESCANSAMOS LOS JUEVES.</p>
+				<p class="contact-line"><span class="azul-01 icon-pin"></span> Showroom Cancún: Av. Bonfil km 11.5 local 7 Cancún, Quintana Roo. Tel. 998 233 2632<br></p>				
+				<p class="contact-line"><span class="azul-01 icon-pin"></span> Showroom Monterrey: Del Textil # 108<br>Regio Parque Industrial Santa Catarina.<br>Santa Catarina, N.L., C.P. 66367.<br>Tel. (81) 80593323, 24 y 25.<br>Horario: Lunes a Viernes de 08:00 Hrs a 18:00 Hrs</p>
 				
 			</div>
 
