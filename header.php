@@ -88,7 +88,8 @@
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
 
-	  gtag('config', 'UA-84802922-19');
+	  // gtag('config', 'UA-84802922-19');
+	  gtag('config', 'AW-785473532');
 	</script>
 	<!-- Facebook Pixel Code -->
 	<script>

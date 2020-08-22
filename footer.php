@@ -16,7 +16,7 @@
 	</div><!-- #content -->
 	
 	<div class="whatsapp-contact">
-		<a href="https://api.whatsapp.com/send?phone=523316951395" target="_blank" title="Mándamos un WhatsApp">
+		<a href="https://api.whatsapp.com/send?phone=523321549753" target="_blank" title="Mándamos un WhatsApp">
 			<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/whatsapp-icon.png'; ?>" alt="Ícono whatsapp">
 		</a>
 	</div>

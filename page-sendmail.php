@@ -1,3 +1,4 @@
+
 <?php
 if (isset($_POST['correo'] && $_POST['correo'] != "") {
     
@@ -35,3 +36,15 @@ if (isset($_POST['correo'] && $_POST['correo'] != "") {
     else {echo "Message has been sent successfully"; }
 
 }
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>¡Gracias!</title>
+    <!-- Event snippet for Formulario Enviado conversion page --> 
+    <script> gtag('event', 'conversion', {'send_to': 'AW-785473532/yb2FCOid6dkBEPy_xfYC'}); </script>
+</head>
+<body>
+
+</body>
+</html>
